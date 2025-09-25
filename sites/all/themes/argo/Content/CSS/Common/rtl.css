@@ -1,0 +1,54 @@
+html:lang(ar) .float-element-mg,
+html:lang(ar) .col-mg-1_15,
+html:lang(ar) .col-mg-2_15,
+html:lang(ar) .col-mg-3_15,
+html:lang(ar) .col-mg-4_15,
+html:lang(ar) .col-mg-5_15,
+html:lang(ar) .col-mg-6_15,
+html:lang(ar) .col-mg-7_15,
+html:lang(ar) .col-mg-8_15,
+html:lang(ar) .col-mg-9_15,
+html:lang(ar) .col-mg-10_15,
+html:lang(ar) .col-mg-11_15,
+html:lang(ar) .col-mg-12_15,
+html:lang(ar) .col-mg-13_15,
+html:lang(ar) .col-mg-14_15,
+html:lang(ar) .col-mg-15_15 {
+  float: right;
+}
+html:lang(ar) .col-1,
+html:lang(ar) .col-2,
+html:lang(ar) .col-3,
+html:lang(ar) .col-4,
+html:lang(ar) .col-5,
+html:lang(ar) .col-6,
+html:lang(ar) .col-7,
+html:lang(ar) .col-8,
+html:lang(ar) .col-9,
+html:lang(ar) .col-10,
+html:lang(ar) .col-11,
+html:lang(ar) .col-12 {
+  float: right;
+}
+html:lang(ar) .pull-left {
+  float: right;
+}
+html:lang(ar) .pull-right {
+  float: left;
+}
+html:lang(ar) .float-element,
+html:lang(ar) .col-1_12,
+html:lang(ar) .col-2_12,
+html:lang(ar) .col-3_12,
+html:lang(ar) .col-4_12,
+html:lang(ar) .col-5_12,
+html:lang(ar) .col-6_12,
+html:lang(ar) .col-7_12,
+html:lang(ar) .col-8_12,
+html:lang(ar) .col-9_12,
+html:lang(ar) .col-10_12,
+html:lang(ar) .col-11_12,
+html:lang(ar) .col-12_12 {
+  float: right;
+}
+/*# sourceMappingURL=rtl.css.map */

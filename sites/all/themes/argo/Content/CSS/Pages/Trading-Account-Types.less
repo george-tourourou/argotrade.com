@@ -1,0 +1,1048 @@
+﻿@import "../Common/Variables";
+//nv-btn nv-btn-white-open-account
+//@PAGE_ID:page-node-590848;//beta-site
+@PAGE_ID:page-node-684603;//live-site
+
+@PAGE_ID_compare:page-node-806436;//beta-    compare-accounts
+//@PAGE_ID_compare:page-node-806436;//live-    compare-accounts
+
+@laptopMD: ~"only screen and (max-width: 1320px)";
+@laptop: ~"only screen and (max-width: 1260px)";
+@screen1024: ~"only screen and (max-width: 1024px)";
+@tablet: ~"only screen and (max-width: 768px)";
+@phone: ~"only screen and (max-width: 600px)";
+
+@COLOR_TEXT_p: #131623;
+@BTN_OPEN_ACCOUNT: #1d5195;
+@WIDTH_CONTENT_314: 314px;
+//.cls-1{fill:#194f97}
+//.cls-2{fill:#172028}
+
+//.@{PAGE_ID}{
+//background: #E9E9E7;
+
+.trading-account-types-page.trading-account-types {
+  //padding-bottom: 50px;
+  //padding-bottom: 223px;
+  padding-bottom: 103px;
+  background: #f7fafc;
+  .trading-account-banner-info {
+    padding: 94px 0 98px;
+    .subtitle {text-align: center}
+  }
+
+  .theme-content{
+    width: 1086px;
+    &.risk-warning-content{
+      width: 845px;
+      margin: auto;
+      float: none;
+      display: block;
+    }
+    &.account-content-large{
+      width: 1360px;
+      max-width: 1360px;
+      .account-type{
+        width: 19%;
+      }
+      .btn {
+        //min-width: 187px;
+        min-width: 100%;
+      }
+    }
+  }
+
+  .page-content {}
+
+  h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    //color: #808080;
+    //padding: 0 15% 50px;
+    padding: 0 15% 10px;
+  }
+  .nv-btn-white-open-account{//-------------------------
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: @BTN_OPEN_ACCOUNT!important;
+    border: 1px solid @BTN_OPEN_ACCOUNT!important;
+    text-decoration: none;
+    padding: 11px 26px 9px;
+    text-transform: uppercase;
+  }
+  .compare-accounts-area{
+    text-align: center;
+    padding-top: 30px;
+    .link-compare-accounts{
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.2;
+      color: @BTN_OPEN_ACCOUNT;
+      text-decoration: none;
+    }
+  }
+  .account-types{
+    //box-shadow: 0 0 4px 0 rgba(26, 24, 24, 0.25);
+    //background-color: #ffffff;
+    padding:0;
+
+
+    /*------ */
+    position: relative;
+    .txt-area.coming{
+      position: absolute;
+      top: 40%;
+      .pro-account{
+        font-size: 22.1px;
+        font-weight: 500;
+        text-align: center;
+        color: #404041;
+      }
+      .coming-soon{
+        font-size: 40px;
+        font-style: italic;
+        text-align: center;
+        color: @BTN_OPEN_ACCOUNT;
+      }
+    }
+
+
+    &:hover {
+      //background: red;
+      .account-type{
+        //background: #fff;
+        &:hover {
+          //background: @BTN_OPEN_ACCOUNT;
+        }
+      }
+    }
+  }
+  .professional-accounts-area {
+    padding: 75px 0 0;
+    .theme-content{
+      margin: auto;
+      max-width: 854px;
+    }
+    .account-types.professional-accounts-area-types{
+      .account-type{
+        width: 50%;
+      }
+    }
+  }
+  .account-type{
+    //background: #fff;
+    //width: 32%;
+    position: relative;
+    width: 24%;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 35px 33px;
+    .category{
+      color: @TEXT_GENERAL_COLOR;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+    .account-size-area{
+      padding-bottom: 12px;
+      p{
+        color: @BACKGROUND_BLUE;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .txt{
+        font-size: 12px;
+        font-weight: 500;
+        color: @COLOR_TEXT_p;
+      }
+      .account-size{
+        font-size: 30px;
+        font-weight: bold;
+
+      }
+    }
+    .panel-group{
+      .panel-heading{
+        //padding: 10px 33px;
+        padding: 10px 11px;
+        .benefits,.spreads{
+          padding: 8px 0;
+          width: 50%;
+          text-decoration: none;
+          .panel-title{
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.2;
+            text-align: center;
+            width: 100%;
+            text-transform: uppercase;
+
+          }
+        }
+        .benefits{
+          background-color: @BTN_OPEN_ACCOUNT;
+          border: 1px solid @BTN_OPEN_ACCOUNT;
+          cursor: pointer;
+          .panel-title{
+            color: #ffffff;
+
+          }
+        }
+        .spreads{
+          cursor: pointer;
+          background-color: #fff;
+          border: 1px solid @BTN_OPEN_ACCOUNT;
+          .panel-title{
+            color: @BTN_OPEN_ACCOUNT;
+          }
+        }
+        .activated{
+          background-color: @BTN_OPEN_ACCOUNT;
+          border: 1px solid @BTN_OPEN_ACCOUNT;
+          .panel-title{
+            color: #ffffff;
+
+          }
+        }
+        .deactivated{
+          background-color: #fff;
+          border: 1px solid @BTN_OPEN_ACCOUNT;
+          .panel-title{
+            color: @BTN_OPEN_ACCOUNT;
+          }
+        }
+      }
+      //.panel.panel-spreads{
+      //  display: none;
+      //}
+      .panel.panel-features{
+        display: none;
+      }
+
+      .panel{
+        border: none;
+        box-shadow: none;
+        .panel-body{
+          padding: 16px 0 42px;
+          background: none;
+          //min-height: 367px;
+          min-height: 356px;
+          .spread-row,.benefits-row{
+            position: relative;
+            //border-bottom: 1px solid @COLOR_TEXT_p!important;
+            border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+            //padding: 5px 0 6px;
+            padding: 5px 0 6px;
+            &:nth-child(1){
+              border-top: solid 1px rgba(0, 0, 0, 0.1);
+            }
+            //&:nth-last-child(1){
+            //  border-bottom: none !important;
+            //}
+          }
+          .spread-row .instrument-name {
+            //float: left;
+          }
+          .benefits-row{
+            .img{
+              width: 14px;
+              height: 14px;
+              //margin: 5px auto 0;
+              float: left;
+              //position: absolute;
+              margin: 5px;
+              //right: 1px;
+              //top: 3px;
+              &.yes{background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/check-icon.svg") no-repeat center center / 14px;}
+              &.no{background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/minus-icon.svg") no-repeat center center / 14px;}
+            }
+          }
+          //.benefits-txt, .instrument-name,.instrument-spreads{
+          .txt {
+            font-size: 11px;
+            //font-weight: 600;
+            //font-size: 11px;
+            text-align: left;
+            color: @COLOR_TEXT_p;
+          }
+          .instrument-spreads{
+            float: right;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+    .btn-area{
+      text-align: center;
+    }
+
+    .most-popular-account {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-size: 12px;
+      text-align: center;
+      background: @ORANGE_COLOR;
+      color: #fff;
+      padding: 4px 0;
+    }
+
+    &:hover{
+      .category-with-spreads.category{
+        //margin-top: -22px;
+      }
+      .category-with-spreads.empty{
+        //height: 15px;
+      }
+    }
+    &.account-type-gold{
+      .category-with-spreads.category{
+        //margin-top: -27px;
+        //margin-top: -22px;
+      }
+      .category-with-spreads.empty{
+        //height: 15px;
+      }
+      .sub-category{
+        //margin-top: -8px;
+        .cell-right,.cell-left{
+          //padding-bottom: 30px;
+        }
+      }
+    }
+    &.account-type-gold.focused{
+      box-shadow: 0 0 8px 0 rgba(26, 24, 24, 0.25);
+      background: #FFFFFF;
+      //margin-bottom: -10px;
+      //margin-top: -10px;
+      padding-top: 35px;
+      .account-size-area .account-size {
+        color: @ORANGE_COLOR;
+      }
+    }
+    &:hover {
+      box-shadow: 0 0 8px 0 rgba(26, 24, 24, 0.25);
+      background: #FFFFFF;
+      //margin-bottom: -10px;
+      //margin-top: -10px;
+      padding-top: 35px;
+      .account-size-area .account-size {
+        color: @ORANGE_COLOR;
+      }
+    }
+
+    &.account-type-micro {
+      .category-with-spreads.sub-category .cell-right {
+        //padding-bottom: 44px;
+      }
+      &:hover{
+        .category-with-spreads.sub-category .cell-right {
+          //padding-bottom: 44px;
+        }
+      }
+    }
+    &.account-type-micro,&.account-type-silver,
+    &.account-type-gold,&.account-type-platinum,&.account-type-exclusive{
+      //box-shadow: 0 4px 7px 2px rgba(0, 0, 0, 0.17);
+
+    }
+  }
+
+  .risk-warning{
+    //padding-top: 55px;
+    padding-top: 12px;
+    p{
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 1.8;
+      //text-align: center;
+      margin-bottom: 2px;
+      a{
+        text-decoration: underline;
+        color: @BTN_OPEN_ACCOUNT;
+      }
+    }
+  }
+  .open-account{
+    text-align: center;
+    padding-top: 36px;
+    a{
+      font-size: 25px;
+      border-radius: 12px;
+      //padding-top: 14px;
+      //padding-bottom: 16px;
+      padding: 14px 50px 16px;
+      color: #FFF!important;
+      text-decoration: none;
+    }
+  }
+  .phone-version,.tablet-version{
+    display: none;
+  }
+
+
+  .account-type-kw .account-type{
+    width: 32%;
+    .panel-group .panel .panel-body .txt {
+      font-size: 12px;
+    }
+  }
+}
+
+//}
+//html:lang(ar){
+//  .@{PAGE_ID}{
+//    .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img.yes{
+//      right: initial;
+//      left: 1px;
+//    }
+//    .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img.no{
+//      right: initial;
+//      left: 1px;
+//    }
+//    .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .instrument-spreads{
+//      float: left;
+//    }
+//  }
+//}
+
+
+html:lang(ar) {
+  .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .spread-row {
+    padding: 9px 0;
+    .instrument-name {
+      float: right;
+    }
+    .instrument-spreads {
+      float: left;
+      padding-top: 0;
+    }
+  }
+  .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .benefits-row {
+    .img {
+      float: right;
+    }
+    .benefits-txt {
+      float: left;
+      width: 80%;
+      padding-top: 5px;
+      text-align: right;
+    }
+  }
+}
+html:lang(es) {
+  .trading-account-types-page.trading-account-types .account-type .panel-group .panel-heading {
+    padding: 10px 11px;
+  }
+  .trading-account-types-page.trading-account-types .account-type .panel-group .panel-heading {
+    padding-left: 0;
+    padding-right: 0;
+    .benefits, .spreads {
+      .panel-title {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+
+//.@{PAGE_ID_compare}{
+//  #block-delta-blocks-breadcrumb{display: none}
+//  .professional-type{
+//    .blurred{
+//      filter: blur(5px);
+//    }
+//  }
+//  .trading-account-types{
+//    padding-top: 50px;
+//    padding-bottom: 35px;
+//    .benefits-spreads,.classic-type,.professional-type{
+//      margin-right: 2%;
+//    }
+//    .benefits-spreads{
+//      padding-top: 53px;
+//      .empty {
+//        height: 144px;
+//      }
+//      .benefits,.spreads{
+//        padding: 11px 0;
+//        margin-bottom: 14px;
+//
+//      }
+//      .benefits{
+//        .title{
+//          padding-bottom: 2px;
+//        }
+//      }
+//      .spreads{
+//        .title{
+//          padding-bottom: 8px;
+//        }
+//      }
+//      .commission{
+//        .title{
+//          padding-top: 18px;
+//          padding-bottom: 40px;
+//        }
+//      }
+//
+//
+//      .benefits-row,.spread-row{
+//        padding: 10px 0;
+//      }
+//      .benefits-txt,.instrument-name{
+//        padding: 0;
+//        //color: #6d6f72;
+//        font-size: 11px;
+//        font-weight: 400;
+//        float: left;
+//        width: 100%;
+//        &.txt{
+//          text-align: left;
+//        }
+//      }
+//      .instrument-name,.benefits-txt{
+//
+//      }
+//    }
+//    .classic-type,.professional-type{
+//      .header{
+//        padding-bottom: 17px;
+//        text-align: center;
+//        font-size: 30px;
+//        font-weight: bold;
+//        line-height: 1.2;
+//        color: #313133;
+//      }
+//    }
+//    .commission-tables{
+//
+//      //padding-top: 22px;
+//    }
+//    .benefits-tables,.spreads-tables,.commission-tables{
+//      box-shadow: 0 0 3px 0 rgba(26, 24, 24, 0.25);
+//      background-color: #ffffff;
+//      margin-bottom: 14px;
+//      //padding: 11px 0;
+//    }
+//
+//    .category {
+//      .account-size-area {
+//        border-left: 1px solid #fff;
+//        border-right: 1px solid #fff;
+//        .type, .txt, .account-size {
+//          color: #fff;
+//          text-align: center;
+//          line-height: 1.2;
+//        }
+//        .type {
+//          font-size: 21px;
+//          font-weight: bold;
+//          padding-top: 29px;
+//          padding-bottom: 10px;
+//        }
+//        .txt {
+//          font-size: 12px;
+//          font-weight: 500;
+//          margin-bottom: 3px;
+//
+//        }
+//        .instrument-spreads{
+//          font-size: 11px;
+//          //color: #6d6f72;
+//        }
+//        .account-size {
+//          font-size: 28px;
+//          font-weight: bold;
+//          padding-bottom: 9px;
+//        }
+//      }
+//      .benefits-area,.spread-area{
+//        margin: 11px 0;
+//        border-right: 1px solid #edeeee;
+//        padding-top: 22px;
+//      }
+//      .benefits-area{
+//
+//      }
+//      .spread-area{
+//        .instrument-spreads.txt {
+//          font-size: 11px;
+//        }
+//      }
+//      &.category-silver{
+//        .account-size-area {
+//          //background: #e0e1e3;
+//          background-image: linear-gradient(to right, #cecdcc 0%, #cfc7bb 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//      &.category-gold{
+//        .account-size-area {
+//          //background: #c7c9cb;
+//          background-image: linear-gradient(to right, #cfc7ba 0%, #d1c0a9 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//      &.category-platinum{
+//        .account-size-area {
+//          //background: #96999c;
+//          background-image: linear-gradient(to right, #d1c0a7 0%, #d2b996 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//      &.category-exclusive{
+//        .benefits-area,.spread-area {
+//          border-right: none;
+//        }
+//        .account-size-area {
+//          //background: #49585d;
+//          background-image: linear-gradient(to right, #d2b995 0%, #d4b384 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//      &.category-classic{
+//        .account-size-area {
+//          //background: #253a4c;
+//          background-image: linear-gradient(to right, #d4b180 0%, #d5ab6e 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//      &.category-pro{
+//        .benefits-area,.spread-area {
+//          border-right: none;
+//        }
+//        .account-size-area {
+//          background: #001d30;
+//          background-image: linear-gradient(to right, #d6aa6e 0%, #d7a661 96%);
+//          .type, .txt, .account-size {
+//          }
+//        }
+//      }
+//    }
+//
+//    .commission-tables{
+//      .category {
+//        .benefits-area,.spread-area{
+//          padding-top: 0;
+//        }
+//      }
+//    }
+//    .benefits-row{
+//      position: relative;
+//      padding: 11px 0;
+//      .img{
+//        width: 14px;
+//        height: 14px;
+//        margin: auto;
+//        float: none;
+//        display: block;
+//        //&.yes{background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/check-icon.svg") no-repeat center center;}
+//        //&.no{background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/minus-icon.svg") no-repeat center center;}
+//      }
+//    }
+//    .spread-row{
+//      padding: 11px 0;
+//      text-align: center;
+//      height: 40px;
+//    }
+//  }
+//}
+
+@media only screen and (max-width: @LAPTOP_SCREEN_HR) {
+  .trading-account-types-page.trading-account-types .account-type {
+    padding: 35px 33px;
+    &.account-type-gold.focused,&:hover {
+      padding-top: 35px;
+    }
+    .category {
+      padding-bottom: 18px;
+    }
+    .panel-group .panel .panel-body {
+      padding: 10px 0 30px;
+      min-height: 330px;
+      .benefits-row {
+        //padding: 9px 0;
+      }
+      .txt {
+        font-size: 12px;
+      }
+    }
+    .account-size-area {
+      padding-bottom: 8px;
+      .account-size {
+        font-size: 44px;
+      }
+      .txt {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN_MD) {
+  .trading-account-types-page.trading-account-types {
+    .theme-content {
+      &.account-content-large {
+        width: 100%;
+        //max-width: 100%;
+        .account-type {
+          //width: 19%;
+        }
+        .btn {
+          //min-width: 187px;
+        }
+      }
+    }
+    .account-type {
+      padding: 28px 33px;
+      &.account-type-gold.focused, &:hover {
+        padding-top: 28px;
+      }
+      .most-popular-account {
+        padding: 2px 0;
+      }
+      .category {
+        padding-bottom: 12px;
+        font-size: 24px;
+      }
+      .panel-group {
+        .panel .panel-body {
+          padding: 10px 0 20px;
+          .benefits-row {
+            padding: 6px 0;
+          }
+          .txt {
+            font-size: 12px;
+          }
+        }
+        .panel-heading .benefits,
+        .panel-heading .spreads {
+          padding: 6px 0;
+          .panel-title {
+            font-size: 12px;
+          }
+        }
+      }
+      .account-size-area {
+        padding-bottom: 8px;
+        .account-size {
+          font-size: 34px;
+        }
+        .txt {
+          font-size: 13px;
+        }
+      }
+
+
+    }
+  }
+}
+
+@media @laptopMD {
+  .@{PAGE_ID} {
+    .trading-account-types-page.trading-account-types {
+      > .page-content-extra-large {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: @LAPTOP_SCREEN) {
+  .trading-account-types-page.trading-account-types {
+    .trading-account-banner-info {
+      padding: 54px 0 48px;
+    }
+    .account-type {
+      padding: 28px 20px;
+      &.account-type-gold.focused, &:hover {
+        padding-top: 28px;
+      }
+      .most-popular-account {
+        //padding: 2px 0;
+      }
+      .category {
+        //padding-bottom: 18px;
+        font-size: 22px;
+      }
+      .panel-group {
+        .panel .panel-body {
+          //padding: 10px 0 20px;
+          .benefits-row {
+            //padding: 6px 0;
+          }
+          .txt {
+            font-size: 11px;
+          }
+          .spread-row {
+            .instrument-name {
+              float: left;
+              max-width: 100px;
+            }
+          }
+        }
+        .panel-heading .benefits,
+        .panel-heading .spreads {
+          //padding: 6px 0;
+          .panel-title {
+            font-size: 11px;
+          }
+        }
+      }
+      .account-size-area {
+        //padding-bottom: 8px;
+        .account-size {
+          font-size: 32px;
+        }
+        .txt {
+          font-size: 12px;
+        }
+      }
+      .btn {
+        min-width: 100%;
+        font-size: 14px;
+        padding: 12px 0;
+      }
+    }
+  }
+  html:lang(es){
+    .trading-account-types-page.trading-account-types .account-type .panel-group .panel-heading {
+      .benefits, .spreads {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media @laptop {
+  .@{PAGE_ID} {
+    .trading-account-types {}
+  }
+}
+// change this from the @tablet ro @laptop
+@media @laptop {
+  .@{PAGE_ID}{}
+  .trading-account-types {
+    .category {
+      &.category-description {
+        .cell {
+          font-size: 14px;
+        }
+      }
+      .category-name {
+        font-size: 20px;
+      }
+
+      .category-amount {
+        font-size: 18px;
+      }
+
+      .cell {
+        padding: 10px;
+      }
+
+      .cell-btn .btn {
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media  all and (max-width:900px) {
+  .@{PAGE_ID} {
+    .trading-account-types {
+
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+      }
+      .account-type .category-with-spreads .cell-left .txt {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media @tablet {
+  .trading-account-types-page.trading-account-types .account-type .panel-group .panel .panel-body .spread-row .instrument-name {
+    float: left;
+    max-width: 200px;
+  }
+  .@{PAGE_ID} {
+    .trading-account-types-page.trading-account-types {
+      .account-type.show .account-size-area .account-size {
+        color: @ORANGE_COLOR;
+      }
+
+      .pc-version {
+        display: none;
+      }
+      .tablet-version {
+        display: block;
+      }
+      .subtitle {
+        font-size: 13px;
+        padding: 0 10% 50px;
+      }
+
+      .account-type {
+        .most-popular-account {
+          //border-radius: 6px;
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+      }
+
+      .account-category{
+        display: none;
+        &.show{
+          display: block;
+        }
+        &.account-category-pro{
+          padding: 0;
+        }
+      }
+
+      .account-content{
+        width: @WIDTH_CONTENT_314;
+        float: none;
+        margin: auto;
+      }
+      .account-types-select-tab{
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 12px 0;
+        position: relative;
+        span{
+          width: 100%;
+          text-align: center;
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 1.2;
+          //color: #323232;
+          text-transform: capitalize;
+        }
+        &.active {
+          //box-shadow: 0 0 4px 0 rgba(26, 24, 24, 0.25);
+          border-radius: 6px;
+          //box-shadow: none;
+          //background: #edeeef;
+          background: #FFF;
+          //z-index: 10;
+          //z-index: 10;
+          box-shadow: 0 0 8px 0 rgba(26, 24, 24, 0.25);
+          .hide-shadow-line-top{
+            height: 10px;
+            //background: #edeeef;
+            background: #fff;
+            position: absolute;
+            bottom: -5px;
+
+          }
+        }
+
+        &.micro,&.silver,&.gold {
+          width: 18%;
+        }
+        &.platinum,&.exclusive {
+          width: 23%;
+        }
+      }
+      .account-type {
+        width: 100%;
+        //background: #edeeef;
+        box-shadow: 0 0 8px 0 rgba(26, 24, 24, 0.25);
+        display: none;
+        .panel-group .panel {
+          background: none;
+        }
+        &.show {
+          display: block;
+        }
+        &:active,&:focus,&:hover,&.show{
+          //background: #edeeef;
+          margin: 0;
+          margin-top: -5px;
+          padding-top: 40px;
+          border-bottom: none !important;
+          border-radius: 6px;
+          background-color: #fff;
+          .category,.account-size-area p {
+            //color: #5a5b5e;
+          }
+          .panel-group .panel .panel-body .txt {
+            //color: #6d6f72;
+          }
+          .panel-group .panel .panel-body .spread-row,
+          .panel-group .panel .panel-body .benefits-row {
+            //border-bottom: 1px solid #6d6f72 !important;
+          }
+          .nv-btn-white-open-account {
+            color: @BTN_OPEN_ACCOUNT !important;
+            border: 1px solid @BTN_OPEN_ACCOUNT !important;
+          }
+          .panel-group .panel .panel-body .benefits-row .img.yes {
+            //background: url(/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/check-icon.svg) no-repeat center center;
+          }
+          .panel-group .panel .panel-body .benefits-row .img.no {
+            //background: url(/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/minus-icon.svg) no-repeat center center;
+          }
+
+        }
+      }
+
+
+      .account-types {
+        box-shadow: none;
+      }
+
+
+      .theme-content{
+        &.account-content-large{
+          width: 314px;
+          .account-type{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  html:lang(es){
+    .trading-account-types-page.trading-account-types .account-type .panel-group .panel-heading {
+      .benefits, .spreads {
+        width: 50%;
+      }
+    }
+  }
+
+}
+@media all and (max-width:650px) {
+  .@{PAGE_ID} {
+
+  }
+}

@@ -1,0 +1,27 @@
+@import "../Common/Variables";
+
+#payment-providers{
+
+  .payment-providers{
+    background-color: #ebebec;
+    padding: 10px 0;
+    .img-area{
+      text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: @GRID_EXTRA_LARGE) {
+  #payment-providers{
+    .img-area{
+      img{
+        margin: auto;
+      }
+    }
+  }
+}
+@media all and (max-width: 325px) {
+  #payment-providers .img-area img {
+    width: 100%;
+  }
+}

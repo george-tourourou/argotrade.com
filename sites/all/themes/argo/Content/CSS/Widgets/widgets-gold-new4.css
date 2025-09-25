@@ -1,0 +1,518 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700";
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.legend{
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.start-trading {
+    height: 1500px;
+}
+
+.submit_btn{
+    background-color: #1a4e99;
+    border: 1px solid #1a4e99;
+    color: #ffffff;
+}
+
+.fieldset2 select, .fieldset3 select, .fieldset4 select{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 15px;
+    outline: none;
+}
+
+.fieldset3 select{
+    width:33%;
+}
+
+#date_of_birth_label, #country_label, #citizenship_label, #language_label {
+    position: initial;
+    width: 100%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+/* RESET DOM ELEMENTS
+    START
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    color: #000000;
+}
+button:hover,
+.button:hover {
+    cursor: pointer;
+}
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* END */
+.full-rule {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.loader--splasher {
+    display: none;
+}
+.loader--splasher .loader--text {
+    animation: 1s ease 0s normal none infinite running blinking;
+    color: #000;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+a {
+    color: #000000;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Page titles */
+.new_account_title {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+/* Start - Form Elements */
+form {
+    float: initial;
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+}
+form label span.form-required {
+    display: none;
+}
+form .form_row {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+form .form_row input[type="text"],
+form .form_row input[type="password"],
+select
+{
+    float: left;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 0;
+    font-size: 15px;
+    outline: none;
+    margin-left: 40px;
+}
+.form-step1 .form_row label {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #000;
+    display: block;
+}
+form .form_row div {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-step2 .form_row ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form-step2 .form_row input[type="text"] {
+    margin-top: 15px;
+}
+
+.form-step2 .form_row #registration_why_cannot_obtain_tin {
+    margin-bottom: 15px;
+}
+.form-step3 .description {
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+.form-step3 .form_row label {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #000;
+    display: block;
+}
+
+.checkbox_list label {
+    display: inline !important;
+}
+
+#date_of_birth_row select{
+    width:32%;
+    margin-right:1%;
+}
+
+#language_label {
+    padding-bottom:15px;
+}
+
+#fatcaradiobox_row label {
+    padding-bottom: 15px;
+}
+
+
+
+form .form_row .error_item {
+    color: #e74c3c;
+    font-size: 15px;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+/* End - Form Elements */
+/* Buttons */
+.blue-gradient {
+    background-color: #3ea9a7;
+}
+/*Loizos*/
+.gold-gradient {
+    background-color: #3ea9a7;
+}
+.submit_btn,
+#submit_login {
+    border: 1px solid #1a4e99;
+    color: #ffffff;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    float: left;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #1a4e99;
+}
+.submit_btn span,
+#submit_login span {
+    color: #fff;
+    font-size: 20px;
+}
+.submit_btn:hover,
+#submit_login:hover,
+.submit_btn:focus,
+#submit_login:focus {
+    /*background: #12457a;loizos*/
+    font-weight: 700;
+}
+/* Pages  */
+.registration {
+    background: #fff;
+}
+.registration .new_account_title {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.registration form #account_type_row {
+    display: none;
+}
+.registration form #referral_code_click_here {
+    margin-bottom: 10px;
+}
+.registration form #currency_row .form_row,
+.registration form #referral_code_click_here .form_row {
+    margin: 0;
+}
+.registration form #currency_row label,
+.registration form #referral_code_click_here label {
+    position: relative;
+    left: auto;
+    top: auto;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+.registration form #currency_row ul,
+.registration form #referral_code_click_here ul {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: none;
+}
+.registration .already {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+}
+.registration .already a {
+    font-size: 15px;
+}
+.registration .risk_warning {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    color: #4a4a4a;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.registration #currency_label {
+    display: none;
+}
+.registration #submit_registration {
+    margin-top: 10px;
+}
+.registration .currency-selected {
+    color: #4a4a4a;
+}
+.registration .currency-selected a {
+    margin-left: 10px;
+}
+.login .title {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 0 45px;
+}
+.login #account_type_row,
+.login .new_user_link,
+.login .risk_warning {
+    display: none;
+}
+.login .button {
+    margin: 30px 0 0;
+}
+.forgotlogin #forgot_wrapper .legend div {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+.forgotlogin #forgot_wrapper p {
+    float: left;
+    width: 100%;
+    padding: 0 0 30px;
+    text-align: center;
+}
+.forgotlogin form .form_row label {
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: left;
+    font-weight: 600;
+}
+.forgotlogin #email_row {
+    margin-bottom: 20px;
+}
+.forgotlogin .reset-password-message,
+.forgotlogin .risk_warning {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.forgotlogin .login_link {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+}
+.flash_message {
+    color: #2ed289;
+}
+.submit_btn, #submit_login{
+    background: #3ea9a7;
+    color: #fff;
+    width: 40%;
+    margin: 45px 30% 0 30%;
+    text-transform: uppercase;
+}
+
+.password-eye {
+    position: absolute;
+    right: 14px;
+    width: 22px !important;
+    height: 13px;
+    top: 47px;
+    cursor: pointer;
+    display: none;
+    float: none !important;
+    left: auto;
+}
+.form29 .password-eye {
+    display: block !important;
+}
+.eye-open {
+    background: url('https://widgets.argo.trade/images/skin_markets2/eye.png');
+    background-repeat: no-repeat;
+}
+.eye-close {
+    background: url('https://widgets.argo.trade/images/skin_markets2/eye_blue.png');
+    background-repeat: no-repeat;
+}
+
+#username_row, #email_row {
+    background: rgba(0, 0, 0, 0) url(https://widgets.trade.com/images/skin_markets2/email-icon.png) no-repeat scroll 7px 17px;
+    border-bottom: 2px solid #cccccc;
+    display: block;
+    margin-top: 60px;
+}
+
+#password_row, #verify_password_row {
+    background: rgba(0, 0, 0, 0) url(https://widgets.trade.com/images/skin_markets2/password-icon.png) no-repeat scroll 8px 9px;
+    border-bottom: 2px solid #cccccc;
+    display: block;
+    margin: 30px 0;
+}
+
+@media all and (max-width: 650px) {
+    .submit_btn {
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    form{
+        width: 100%;
+    }
+    form .form_row{
+        margin-bottom: 0px;
+    }
+    .submit_btn, #submit_login{
+        width: 60%;
+        margin: 45px 20% 20px 20%;
+    }
+}

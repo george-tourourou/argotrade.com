@@ -1,0 +1,133 @@
+body * {
+    box-sizing: border-box;
+	font-family: Roboto, Arial;
+}
+
+#content form input:focus, #content form input:active {
+	outline: none;
+}
+
+#content fieldset {
+	border: none;
+    margin: 0;
+    background-color: #28313a;
+}
+
+#content .fieldset1 .legend {
+	display: block;
+	width: 100%;
+	background: #EDEDED;
+	font-size: 14px;
+	color: #4c4c4c;
+	font-weight: bold;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+#content .fieldset1 .legend:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% - 7px);
+    left: 25px;
+    background: #28313A;
+    width: 20px;
+    height: 20px;
+    transform: rotateZ(45deg);
+}
+
+
+#content .form_row {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#opt_in_row {
+	display: none;
+}
+
+#content .fieldset1 {
+	width: 75%;
+	float: left;
+	padding: 0;
+}
+
+#content .fieldset1 label {
+	position: absolute;
+	margin-top: 8px;
+    margin-left: 5px;
+    font-size:12px;
+    color: #4c4c4c;
+}
+
+#content .fieldset1 input[type="text"] {
+	padding: 5px;
+	max-width: 100%;
+	font-size: 12px;
+	width: 100%;
+}
+
+#content .fieldset1 .phone_main_new {
+	font-size: 12px;
+}
+
+#content .form_row .error_list {
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    left: 15px;
+    bottom: 0;
+    font-size: 11px;
+    color: #FFA8A8;
+}
+
+#content form input[type="submit"]{
+	width: calc(25% - 15px);
+    float: right;
+    background: #1cbb4b;
+    border: none;
+    padding: 21px 10px;
+    margin-top: 31px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#content form input[type="submit"]:hover {
+	background-color: #349475;
+}
+
+#content form .intl-tel-input {
+	max-width: 100%;
+	width: 100% !important;
+}
+
+@media(max-width: 767px) {
+	#content .form_row {
+	    width: 50%;
+	    float: left;
+	}
+
+	#content .fieldset1 {
+		width: 100%;
+	}
+
+	#content form input[type="submit"] {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	#content .fieldset1 .legend {
+		text-align: center;
+	}
+
+	#content .fieldset1 .legend:before {
+		left: 50%;
+		transform: translateX(-50%) rotateZ(45deg)
+	}
+}

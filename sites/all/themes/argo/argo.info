@@ -1,0 +1,68 @@
+name = ArgoTrade Theme
+description = Custom theme for ArgoTrade
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header Secion
+regions[content] = Content
+regions[footer] = Footer Section
+
+features[] = name
+features[] = main_menu
+
+
+
+
+    stylesheets[all][] = Content/CSS/Common/ResetStyles.css
+    stylesheets[all][] = Content/CSS/Common/Grid.css
+    stylesheets[all][] = Content/CSS/Common/Container.css
+    stylesheets[all][] = Content/CSS/Common/Buttons.css
+    stylesheets[all][] = Content/CSS/Common/Display.css
+    stylesheets[all][] = Content/CSS/Common/Flex.css
+    stylesheets[all][] = Content/CSS/Common/Pull.css
+    stylesheets[all][] = Content/CSS/Common/Spacing.css
+    stylesheets[all][] = Content/CSS/Common/Alert.css
+    stylesheets[all][] = Content/CSS/Common/LanguageCorrection.css
+    stylesheets[all][] = Content/CSS/Common/Responsive.css
+    stylesheets[all][] = Content/CSS/Common/rtl.css
+	stylesheets[all][] = Content/CSS/Common/fonts.css
+	stylesheets[all][] = Content/CSS/Common/Blocks.css
+
+    stylesheets[all][] = Content/CSS/Components/Navigation.css
+    stylesheets[all][] = Content/CSS/Components/Slick-Carousel.css
+    stylesheets[all][] = Content/CSS/Components/Tabs.css
+    stylesheets[all][] = Content/CSS/Components/MainPlainBanner.css
+    stylesheets[all][] = Content/CSS/Components/Panel.css
+    stylesheets[all][] = Content/CSS/Components/Tab.css
+    stylesheets[all][] = Content/CSS/Components/Tooltip.css
+    stylesheets[all][] = Content/CSS/Components/Modals.css
+
+    stylesheets[all][] = Content/CSS/Blocks/Header.css
+    stylesheets[all][] = Content/CSS/Blocks/Menu.css
+    stylesheets[all][] = Content/CSS/Blocks/Footer.css
+    stylesheets[all][] = Content/CSS/Blocks/Registration.css
+    stylesheets[all][] = Content/CSS/Blocks/risk-warning.css
+    stylesheets[all][] = Content/CSS/Blocks/payment-providers.css
+
+    stylesheets[all][] = Content/CSS/Pages/Front.css
+	stylesheets[all][] = Content/CSS/Pages/Platforms.css
+	stylesheets[all][] = Content/CSS/Pages/Assets.css
+	stylesheets[all][] = Content/CSS/Pages/Article.css
+	stylesheets[all][] = Content/CSS/Pages/Regulation.css
+	stylesheets[all][] = Content/CSS/Pages/Widgets.css
+	stylesheets[all][] = Content/CSS/Pages/Cfds-List.css
+	stylesheets[all][] = Content/CSS/Pages/Contact-us.css
+	stylesheets[all][] = Content/CSS/Pages/About-us.css
+	stylesheets[all][] = Content/CSS/Pages/Faq.css
+	stylesheets[all][] = Content/CSS/Pages/News.css
+	stylesheets[all][] = Content/CSS/Pages/OldThemeCorrections.css
+	stylesheets[all][] = Content/CSS/Pages/Trading-Account-Types.css
+	stylesheets[all][] = Content/CSS/Pages/Cfds-List.css
+	stylesheets[all][] = Content/CSS/Pages/Regulation-pack.css
+	
+	stylesheets[all][] = Content/CSS/Other/font-awesome-4.7.0.min.css
+
+    scripts[] = Content/js/scroll-position.js
+    scripts[] = Content/Scripts/TraderTrends.js
+    ;scripts[] = Content/js/popper.min.js
+    ;scripts[] = Content/js/jquery-3.4.1.min.js

@@ -1,0 +1,271 @@
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+/* @@ Reset @@ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus { outline: 0; } body { line-height: 1; color: black;} ol, ul { list-style: none; } /* tables still need 'cellspacing="0"' in the markup */ table { border-collapse: separate; border-spacing: 0; } caption, th, td { text-align: left; font-weight: normal; } blockquote:before, blockquote:after, q:before, q:after { content: ""; } blockquote, q { quotes: "" ""; }
+/* @@ END RESET @@ */
+
+/* @@ General @@ */
+body {
+    font-family: Tahoma;
+}
+iframe {
+    border: none!important;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    width: 100%;
+    float: left;
+}
+
+/* Thank you page - Account Details widget */
+#progressbar_wrapper {
+    width: 100%;
+}
+#pending {
+    margin: 20px auto;
+    background: url(../images/skin_3/preloader-bg.png) no-repeat;
+    height: 104px;
+    width: 607px;
+    padding: 25px 0 0 0;
+}
+#pending h3 {
+    margin: 0 0 15px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #003250;
+    text-align: center;
+}
+#account_details_wrapper {
+width: 100%;
+}
+#product_details {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+#account_details {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+#account_details .title, #product_details .title {
+text-align: center;
+//color: #ffffff;
+color: #333333;
+font-weight: 600;
+font-size: 16px;
+//padding: 10px;
+//background-color: #0da979;
+background-color: #ebebeb;
+//border: 1px solid #399377;
+border-top: 1px solid #8f8f8f;
+border-bottom: 1px solid #8f8f8f;
+//height: 50px;
+vertical-align:middle;
+font-family:'Open Sans';
+text-align: left;
+padding-left: 20px;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+#account_details .title {
+	border-left: 1px solid #8f8f8f;
+}
+#product_details .title {
+ border-right: 1px solid #8f8f8f;
+}
+
+#account_details_wrapper .row {
+height: 13px;
+padding: 15px;
+clear: both;
+//border: 1px solid #e9e9e9;
+border-spacing:10px;
+border-left: 1px solid #8f8f8f;
+border-right: 1px solid #8f8f8f;
+}
+.bg #account_details_wrapper .row {
+height: 13px;
+}
+.ru #account_details_wrapper .row {
+height: 13px;
+}
+.ro #account_details_wrapper .row {
+height: 13px;
+}
+.cs #account_details_wrapper .row , .cz #account_details_wrapper .row{
+height: 13px;
+}
+#product_details .row{
+	//border-left: 0px;
+	//border-left: 1px solid #8f8f8f;
+}
+#account_details .row{
+	border-right: 0px;
+	//border-left: 1px solid #8f8f8f;
+}
+#account_details_wrapper .row:last-child {
+	border-bottom: 1px solid #8f8f8f;
+}
+#account_details_wrapper .key {
+font-size: 14px;
+color: #333333;
+float: left;
+//padding-right: 20px;
+//width:140px;
+width: 180px;
+font-family:'Open Sans';
+}
+#account_details_wrapper .value {
+font-size: 14px;
+color: #333333;
+font-weight: bold;
+float: left;
+font-family:'Open Sans';
+margin-left:-30px;
+}
+#product_details .value {
+margin-left:50px;
+}
+#account_details_wrapper .product_error {
+    border: 1px solid red;
+    background: url(../images/skin_3/product_error.png) 10px 5px no-repeat;
+    background-color: white;
+    height: 49px;
+    color: red;
+    font-size: 12px;
+    padding: 7px 0 0 40px;
+}
+
+.ar #product_details {
+	float: left;
+	text-align: right;
+}
+
+.ar #account_details {
+	float:right;
+	text-align: right;
+}
+
+.ar #product_details .title{
+	text-align: right;
+	padding-right: 60px;
+	border-right: 0px solid #8f8f8f;
+	border-left: 1px solid #8f8f8f;
+	direction: rtl;
+}
+
+.ar #account_details .title{
+	text-align: right;
+	padding-right: 40px;
+	border-right: 1px solid #8f8f8f;
+	border-left: 0px solid #8f8f8f;
+	direction: rtl;
+}
+
+.ar #account_details .row{
+	border-right: 1px solid #8f8f8f;
+	border-left:0px;
+}
+
+.ar #account_details_wrapper .key {
+	float: right;
+	padding-right: 25px;
+	width: 140px;
+	text-align: right;
+}
+
+.ar #product_details .key {
+	padding-right: 42px;
+	direction: rtl;
+}
+
+.ar #account_details_wrapper .value {
+	float: right;
+	text-align: right;
+}
+
+@media only screen and (max-width: 475px), only screen and (max-device-width: 475px) {
+	
+	#account_details .title{
+		border-right: 1px solid #8f8f8f;
+	}
+	
+	#account_details .row{
+		border-right: 1px solid #8f8f8f;
+	}
+	
+	#account_details {
+		position: relative;
+		clear: both;
+		width: 70%;
+		float: left;
+	}
+	
+	.ar #account_details {
+		width:67%;
+	}
+	
+	#product_details .title{
+		border-left: 1px solid #8f8f8f;
+	}
+	
+	#product_details {
+		position: relative;
+		clear: both;
+		width: 70%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	
+	.ar #product_details {
+		float: right;
+		text-align: right;
+		width: 67%;
+	}
+	
+	#product_details .value {
+		margin-left: -10px;
+	}
+	
+	#account_details .value {
+		margin-left: 0px;
+	}
+	
+	.ar #product_details .title{
+		border-right: 1px solid #8f8f8f;
+	}
+	
+	.ar #account_details .title{
+		border-left: 1px solid #8f8f8f;
+	}
+	
+	.ar #account_details .row{
+		border-left: 1px solid #8f8f8f;
+	}
+	
+}

@@ -1,0 +1,60 @@
+@import "../Common/Variables";
+.faq {
+  padding: 0 0 90px;
+  .default-banner-promo{
+    margin-bottom: 45px;
+  }
+  .tab-content {
+    min-height: 1000px;
+  }
+  ul{
+    padding:0;
+  }
+  h2 {
+    margin-top: 30px;
+  }
+  h3,h5 {
+    margin: 20px 0 10px;
+  }
+  h2, h3, h5 {
+    font-weight: bold;
+  }
+
+  .tab-pane.fade.active.in {
+    //border: 1px #e1e5e9 solid;
+    padding: 0 20px;
+  }
+  .nav.nav-tabs {
+    border: none;
+    li {
+      margin-right: 5px;
+      border-radius: 3px 3px 0 0;
+      //border: 1px #e1e5e9 solid;
+      border-bottom: none;
+      margin-top: -1px;
+      &.active {
+        background: #e1e5e9;
+      }
+    }
+  }
+
+  .nav > li > a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+  }
+  .panel-group .panel-default {
+    border: none;
+
+    border-bottom: 1px solid rgba(33, 39, 95, 0.1);
+  }
+  .panel-group .panel-default > .panel-heading {
+    color: @TEXT_GENERAL_COLOR;
+    background-color: #fff;
+  }
+}
+@media (max-width: 900px){
+  .faq {
+    padding: 0 0 50px;
+  }
+}

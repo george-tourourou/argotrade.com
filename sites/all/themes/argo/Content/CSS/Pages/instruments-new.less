@@ -1,0 +1,1044 @@
+@sell_color: #3da07b;
+@buy_color: #9c2d31;
+body.html.not-front {
+  //padding-top: 130px;
+}
+#maincontainer.container{
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#instrument-page {
+  //margin: 105px 0 0;
+
+  .border-element {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .instrument-promo-zone {
+    padding: 120px 0 70px;
+    background: url('/sites/all/themes/trade/assets/images/instruments/instrument-bg.png') no-repeat center bottom;
+    background-size: cover;
+
+    .instrument-description {
+
+      h1, h2, b, p {
+        float: left;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 30px;
+        font-weight: 500;
+        color: #313133;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.5;
+        color: #aeb0b3;
+
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 15px;
+        margin: 0;
+      }
+
+      .mobile-line{
+        display: none;
+      }
+
+      b {
+        margin-top: 20px;
+      }
+
+      b, p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.73;
+        color: #313133;
+      }
+
+      p {
+        font-weight: 300;
+        width: 100%;
+        max-width: 750px;
+      }
+    }
+
+    .instrument-details {
+      margin-top: 40px;
+
+      .cta-part {
+        box-sizing: border-box;
+        width: 34.7%;
+        a {
+          color: #fff;
+          padding: 10px 15px;
+          width: 49.5%;
+          float: left;
+          box-sizing: border-box;
+          min-height: 73px;
+
+          span {
+            font-size: 15px;
+            line-height: 1.2;
+            float: left;
+            width: 80%;
+            text-transform: uppercase;
+          }
+
+          b {
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 1.2;
+            float: left;
+            width: 80%;
+            margin-top: 3px;
+          }
+
+          img {
+            float: right;
+            margin-top: 20px;
+          }
+        }
+
+        #instrument-sell {
+          margin-right: 1%;
+          background-color: @sell_color;
+
+          &:hover {
+            background-color: darken(@sell_color, 20%);
+          }
+        }
+
+        #instrument-buy {
+          background-color: @buy_color;
+
+          &:hover {
+            background-color: darken(@buy_color, 20%);
+          }
+        }
+
+        #instrument-price {
+          border-top: 1px solid #e6e6e6;
+          border-bottom: 1px solid #e6e6e6;
+          padding: 15px 0 10px;
+          margin-top: 40px;
+
+          b {
+            float: left;
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 1.2;
+            color: #313133;
+          }
+
+          .fa {
+            font-size: 27px;
+          }
+          .positive, .up {
+            color: #3da07b;
+          }
+          .negative, .down {
+            color: #a23236;
+          }
+          span {
+            float: left;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.73;
+
+            margin-top: 17px;
+            margin-left: 5px;
+
+            &.positive {
+              color: #3da07b;
+            }
+
+            &.negative {
+              color: #a23236;
+            }
+
+            &.ytd {
+              font-size: 11px;
+              margin-top: 21px;
+              margin-left: 7px;
+            }
+          }
+
+          img, .fa{
+            float: left;
+            margin-top: 10px;
+            margin-left: 5px;
+          }
+
+          .fa {
+            margin-top: 6px;
+          }
+        }
+
+        .instrument-high-low {
+          padding-top: 10px;
+          .low-area {
+            //text-align: ;
+          }
+          .high-area {
+            text-align: right;
+          }
+          span {
+            font-size: 15px;
+            line-height: 1.73;
+            color: #6d6f72;
+            text-transform: uppercase;
+          }
+
+          p {
+            margin-top: 10px;
+            float: left;
+            width: 100%;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .instrument-info {
+    padding-left: 12.8%;
+    width: 65.1%;
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.44;
+      color: #313133;
+      margin-top: -6px;
+      margin-bottom: 13px;
+    }
+
+    .table {
+      border-bottom: 1px solid #e6e6e6!important;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+
+      .left-side {
+        padding-bottom: 10px;
+      }
+      .row-area {
+        min-height: 26px;
+        b{
+          text-transform: uppercase;
+        }
+      }
+
+      > div:nth-child(1) {
+        border-right: 1px solid #e6e6e6 !important;
+      }
+
+      > div:nth-child(2) {
+        padding-left: 30px;
+      }
+
+      span {
+        font-size: 13px;
+        line-height: 2;
+        color: #6d6f72;
+        float: left;
+        width: 60%;
+      }
+
+      b {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.86;
+        color: #313133;
+        float: left;
+      }
+    }
+
+    .trading-conditions {
+      display: flex;
+
+      .spreads,.leverage {
+        //margin-right: 12px;
+        width: 25%;
+        margin-right: 2%;
+      }
+      .trading-hours {
+        width: 50%;
+      }
+      ////div:nth-child(1) {
+      //  margin-right: 12px;
+      //}
+      //
+      //div:nth-child(3) {
+      //  margin-left: 12px;
+      //}
+
+      span {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        line-height: 2;
+        text-align: center;
+        color: #6d6f72;
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      b {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.2;
+        text-align: center;
+        color: #313133;
+        border: 1px solid #e6e6e6;
+        background: #fff;
+        font-weight: normal;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .risk-search{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    .text-area{
+      p{
+        font-size: 12px;
+        color: #6d6f72;
+        line-height: 1.83;
+        font-weight: normal;
+      }
+      .space{
+        padding-bottom: 15px;
+      }
+    }
+
+    .search-area{
+      .instruments-search-form{
+        .form-group{
+          input#edit-instrument{
+            background-color: #fff;
+            background:url("/sites/all/themes/trade/assets/images/instruments/search-icon.svg") no-repeat 98% center;
+            border-radius: 15.7px;
+            box-shadow: 0 0 4px 0 rgba(26, 24, 24, 0.45);
+            padding: 22px 17px;
+            border: none;
+          }
+        }
+        .input-group-addon{
+          display: none;
+        }
+      }
+    }
+  }
+
+  .highcharts-exporting-group, .chart_type {
+    display: none;
+  }
+
+  .instruments-chart {
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .instruments-chart .controls {
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .instruments-chart .controls li {
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .instruments-chart .controls li.active {
+    background-color: #419bcf;
+    color: white;
+  }
+  .instruments-chart .chart-container {
+    min-height: 200px;
+    border: 3px solid #E3E3E3;
+  }
+  .instruments-chart .chart-container.progress {
+    background: transparent url('../images/ajax-loader.gif') no-repeat center;
+  }
+
+  .instruments-chart select.chart_instrument {
+    color: #ccc;
+    text-overflow: clip;
+    border-radius: 2px;
+    background: #121216 url('/sites/default/files/instruments/widget-arrow-down.png') no-repeat right 10px center;
+    font-size: 12px;
+    border: 1px solid #2F2F30;
+    cursor: pointer;
+    padding: 5px;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    direction: ltr;
+  }
+  .instruments-chart select:focus {
+    outline: 0;
+  }
+  .instruments-chart .chart_control a {
+    color: #868281 !important;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    transition: background-color 300ms ease-out 0s;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin-right: 5px;
+  }
+  .instruments-chart .chart_control a:hover,
+  .instruments-chart .chart_control a.active {
+    color: #335a89 !important;
+  }
+
+  .instruments-chart .chart_type {
+    display: inline-block;
+    transition: background-color 300ms ease-out 0s;
+
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 10px;
+  }
+  .d-none{
+    display: none;
+  }
+
+  .instruments-chart .chart_type.l {
+    //background-image: url('/sites/all/themes/trade/assets/images/instruments/candle.svg');
+  }
+
+  .instruments-chart .chart_type.c {
+    //background-image: url('/sites/all/themes/trade/assets/images/instruments/line.svg');
+  }
+
+  .instruments-chart .chart-title {
+    text-transform: uppercase;
+    font-size: 20px;
+
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    z-index: 2;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #chartContainer {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .notes {
+    margin-top: 45px;
+
+    p {
+      font-size: 12px;
+      line-height: 1.83;
+      color: #6d6f72;
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.instruments-container {
+  padding-bottom: 115px;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #313133;
+    margin: 60px 0 30px;
+  }
+}
+
+.instruments {
+
+  .instrument {
+    &.slick-current a {
+      border-left: none;
+    }
+  }
+
+  a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-left: 1px solid #e6e6e6;
+
+    b {
+      float: left;
+      width: 100%;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1;
+      color: #6d6f72;
+      text-transform: uppercase;
+    }
+
+    .category, .ytd {
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 1;
+      float: left;
+      color: #aeb0b3;
+      margin: 2px 0 8px;
+    }
+
+    .ytd {
+      float: right;
+    }
+
+    .price {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.2;
+      float: left;
+      color: #313133;
+    }
+
+    .change {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.2;
+      float: right;
+
+      &.pos {
+        color: #3da07b;
+      }
+
+      &.neg {
+        color: #cd4146;
+      }
+    }
+
+    .ytd {
+      color: #aeb0b3;
+      font-weight: 100;
+    }
+  }
+
+  .slick-prev {
+    left: -25px;
+  }
+  .slick-next {
+    right: -25px;
+  }
+
+  .slick-prev:before {
+    content: "\f053";
+    font-size: 15px;
+  }
+
+  .slick-next:before {
+    content: "\f054";
+    font-size: 15px;
+  }
+
+  .slick-prev, .slick-next {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+
+    color: #313133;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+  }
+}
+
+html[lang="es"] {
+  #instrument-page .instrument-info .trading-conditions span {
+    min-height: 55px;
+  }
+}
+html:lang(ar) {
+  #instrument-page {
+    .instrument-info {
+      padding-left: 0;
+      padding-right: 12.8%;
+      .trading-conditions .spreads,
+      .trading-conditions .leverage {
+        margin-right: 0;
+        margin-left: 2%;
+      }
+    }
+    .instrument-info .table > div:nth-child(1) {
+      border-right: 0 !important;
+      border-left: 1px solid #e6e6e6 !important;
+    }
+    .instrument-info .table span {
+      font-size: 13px;
+      line-height: 2;
+      color: #6d6f72;
+      float: right;
+      width: 60%;
+    }
+    .instrument-info .table {
+      span,b {
+        float: right;
+      }
+      & > div:nth-child(2) {
+        padding-left: 0;
+        padding-right: 30px;
+      }
+    }
+    .instrument-promo-zone {
+      .instrument-description h2 {
+        float: right;
+      }
+      .instrument-details .cta-part {
+        a {
+          span, b, img {
+            float: right;
+          }
+        }
+        #instrument-price {
+          b, .fa, span {
+            float: right;
+          }
+        }
+        .instrument-high-low .high-area {
+          text-align: left;
+        }
+      }
+    }
+    .risk-search .search-area .instruments-search-form .form-group input#edit-instrument {
+      background: url("/sites/all/themes/trade/assets/images/instruments/search-icon.svg") no-repeat 3% center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #instrument-page {
+    .instrument-info {
+      padding-left: 30px;
+    }
+
+    .instruments {
+      .slick-prev {
+        left: -20px;
+      }
+
+      .slick-next {
+        right: -20px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  #instrument-page {
+    margin: 0;
+
+    .instrument-promo-zone {
+      .instrument-description .heading {
+        width: 100%;
+      }
+
+      .instrument-details .cta-part {
+        width: 100%;
+
+
+        .cta-btns {
+          width: 50%;
+
+          a {
+            b {
+              font-size: 20px;
+            }
+
+            img {
+              float: right;
+              margin-top: 14px;
+            }
+          }
+        }
+
+        .price-container {
+          width: 50%;
+          border: none;
+          padding-left: 32px;
+          margin: 0;
+        }
+
+        #instrument-price {
+          margin: 0;
+          border: none;
+          padding: 0 0 8px;
+        }
+      }
+    }
+
+    .instrument-info {
+      padding: 40px 0 0;
+      width: 100%;
+
+      .trading-conditions {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+
+    .instruments a {
+      padding: 0 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #instrument-page {
+    .nv-content{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .instrument-promo-zone {
+      .instrument-details {
+        .cta-part {
+          a {
+            color: #fff;
+            padding: 10px 15px;
+            width: 100%;
+            float: left;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+          }
+
+          #instrument-price {
+            margin: 0;
+            border: none;
+            padding: 5px 0 35px;
+
+            .fa {
+              margin-top: 3px;
+            }
+
+            span {
+              line-height: 1;
+              margin-top: 16px;
+
+              &.ytd {
+                font-size: 10px;
+                margin-top: 21px;
+                font-weight: 100;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .instruments-chart{
+      .chart-title{
+        font-size: 14px;
+      }
+      .controls {
+        top: 0;
+        max-width: 400px;
+        li {
+          float: right;
+        }
+      }
+    }
+    .instruments-container {
+      padding-bottom: 75px;
+
+      h3 {
+        margin: 30px 0 20px;
+      }
+    }
+
+    .instruments a {
+      padding: 0 30px;
+    }
+
+    .instrument-info .trading-conditions span {
+      min-height: 55px;
+    }
+
+    .risk-search{
+      margin-top: 10px;
+      .text-area{
+        width: 100%;
+        .space{
+          padding-bottom: 0;
+        }
+      }
+      .search-area{
+        width: 100%;
+        padding-top: 40px;
+        .instruments-search-form .form-group input#edit-instrument{
+          padding: 8px 17px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #instrument-page {
+    margin: 0;
+    .instrument-promo-zone {
+      background: url(/sites/all/themes/trade/assets/images/instruments/mobile/img-bg-mobile.png) no-repeat center top;
+      background-size: cover;
+      padding: 40px 0 30px;
+
+      .instrument-description {
+        text-align: center;
+
+        #instrument-ticker-name{
+          padding-bottom: 22px;
+        }
+
+        .border-element {
+          border-top: 2px solid #e6e6e6;
+          margin: auto;
+          display: block;
+          float: none;
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+        h2{
+          font-size: 16px;
+        }
+      }
+
+      .mobile-line{
+        width: 120px;
+        border-bottom: 1px solid #e6e6e6;;
+        margin: auto;
+        margin-bottom: 40px;
+        display: inline-block;
+      }
+
+      .instrument-details {
+        margin: 0;
+
+        .instrument-high-low {
+          margin-top: 0;
+          padding-bottom: 12px;
+          span{
+            font-size: 12px;
+          }
+        }
+
+        .cta-part {
+          width: 100%;
+
+          #instrument-price b {
+            font-size: 28px;
+          }
+
+          h1 {
+            font-size: 25px;
+          }
+
+          .cta-btns {
+            width: 100%;
+            //margin: 30px 0;
+            padding-bottom: 34px;
+
+            a {
+              span {
+                font-size: 12px;
+                line-height: 1.2;
+              }
+
+              b {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1;
+              }
+
+              img {
+                width: 17px;
+                height: auto;
+              }
+            }
+          }
+
+          a {
+            width: 49.5%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            min-height: 59px;
+          }
+
+          .price-container {
+            width: 100%;
+            padding-left: 0;
+          }
+
+          #instrument-price {
+            border-top: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            padding: 5px 0 10px;
+
+            .instrument-high-low {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .instrument-info {
+      padding: 30px 0 0;
+
+      h3 {
+        font-size: 15px;
+        line-height: 1.73;
+        margin-bottom: 4px;
+      }
+
+      .title{
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      .table {
+        //padding-bottom: 30px;
+
+        span, b{
+          font-size: 12px;
+        }
+
+        > div {
+          border: none !important;
+          width: 100%;
+          padding: 0 !important;
+        }
+      }
+
+      .trading-conditions {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .spreads, .leverage {
+          width: 47%;
+          margin: 0;
+        }
+
+        .trading-hours {
+          margin: 20px auto !important;
+        }
+      }
+    }
+
+    .instruments-chart {
+      float: left;
+      width: 100%;
+      right: 0;
+      left: 0;
+      position: relative;
+
+      .controls {
+        top: 0;
+        max-width: 100%;
+        right: 0;
+        left: 0;
+
+        li {
+          padding: 5px 0;
+          float: left;
+          width: 100%;
+
+          .chart_type {
+            float: right;
+          }
+
+          .chart_control {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+              padding: 5px 7px;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .chart-title {
+        //top: 10px;
+        left: 0;
+      }
+    }
+
+    .instruments-container {
+      h3 {
+        text-align: center;
+      }
+    }
+
+    .instruments {
+      .slick-prev {
+        left: -10px;
+      }
+
+      .slick-next {
+        right: -10px;
+      }
+    }
+  }
+
+  #instrument-page .instrument-info .table > div:nth-child(1) {
+    border-right: 0 !important;
+  }
+  html:lang(ar) #instrument-page .instrument-info .table > div:nth-child(1) {
+    border-left: 0 !important;
+  }
+  html:lang(ar) #instrument-page .instrument-info {
+    padding-right: 0;
+  }
+}

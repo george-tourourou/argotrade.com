@@ -1,0 +1,387 @@
+﻿/*Taken from finq china*/
+
+#logged-in-menu {
+    .dropdown-menu {
+        display: block;
+        //> means direct child
+        li {
+            &:hover {
+                > a {
+                    color: #fff;
+
+                    span {
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .plain-box-shadow {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar {
+        position: relative;
+        float: right;
+    }
+
+    .navbar-toggle {
+        display: none;
+        float: right;
+        font-size: 30px !important;
+        margin-top: 4px;
+        color: #125688;
+        cursor: pointer;
+    }
+
+    .navbar-toggle.collapsed {
+        &:before {
+            content: "\f0c9";
+        }
+    }
+
+    .navbar-default {
+        .navbar-toggle {
+            .icon-bar {
+                background-color: #888;
+            }
+        }
+    }
+
+    .nav {
+        list-style: none;
+        display: inline;
+
+        > li {
+            position: relative;
+            display: block;
+
+            > a {
+                position: relative;
+                display: block;
+            }
+
+            .fa {
+                font-size: 10px;
+                margin: 9px 0 0 5px;
+                float: right;
+            }
+
+            span {
+                box-sizing: border-box;
+            }
+        }
+
+        > li.open {
+            > .dropdown-menu {
+                display: block;
+            }
+        }
+
+        li {
+            float: left;
+            padding: 0 15px;
+            margin-top: 6px;
+            box-sizing: border-box;
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    span {
+                        text-decoration: none;
+                    }
+
+                    text-decoration: none;
+                }
+            }
+
+            > a {
+                span {
+                    font-size: 14px;
+                    color: #000000;
+                }
+            }
+        }
+
+        li.navigation-register {
+            margin-top: 0;
+        }
+
+        li.active {
+            > a {
+                span {
+                    color: #125688;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        li.navigation-sign-up {
+            a {
+                span {
+                    color: #2ed289;
+                }
+            }
+        }
+
+        .btn.btn-promo {
+            font-size: 15px;
+            line-height: 1;
+            margin-left: 12px;
+            box-shadow: none;
+        }
+
+        .navigation-register {
+            a {
+                float: left;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+
+                img {
+                    width: auto;
+                    max-width: 100%;
+                    float: left;
+                }
+            }
+        }
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        /*top: 25px;*/
+        top: 40px;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        margin: 2px 0 0;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-sizing: border-box;
+
+        > li {
+            float: left;
+            width: 100%;
+            border-top: 1px #ccc solid;
+            padding: 7px 10px;
+            margin-top: 0;
+
+            &:first-child {
+                border: none;
+            }
+
+            > a {
+                display: block;
+                clear: both;
+                font-weight: 400;
+                line-height: 1.42857143;
+                color: #333;
+                white-space: nowrap;
+            }
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+    #logged-in-menu {
+        .navbar-toggle {
+            display: block;
+        }
+
+        #tradersNavbar.show{
+            display:block;
+        }
+
+        .navbar {
+            background: #fff none repeat scroll 0 0;
+            float: none;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 63px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            .navigation-area {
+                width: 100%;
+                margin: 0;
+                z-index: 10;
+            }
+        }
+
+        .nav {
+            margin: 10px 0 0;
+            padding: 0 10px 10px;
+
+            li {
+                padding: 0 !important;
+                border: none !important;
+                margin-top: -1px !important;
+
+                .dropdown-toggle {
+                    span {
+                        width: 80%;
+                        padding: 10px 10px 0;
+                    }
+
+                    .fa {
+                        border-left: 1px solid #ccc;
+                        float: right;
+                        font-size: 14px;
+                        line-height: 1;
+                        margin: 0;
+                        overflow: hidden;
+                        padding: 13px 0;
+                        text-align: center;
+                        width: 40px;
+
+                        &:before {
+                            content: "\f054" !important;
+                        }
+                    }
+                }
+
+                a {
+                    border: 1px solid #d5d5d5;
+                    float: left;
+                    width: 100%;
+
+                    span {
+                        padding: 10px;
+                        float: left;
+                        width: 100%;
+                    }
+                }
+
+                .btn.btn-promo {
+                    float: left;
+                    margin: 10px 10px 0;
+                    padding: 10px 30px;
+                    width: auto;
+                }
+            }
+
+            li.open {
+                .dropdown-toggle {
+                    .fa {
+                        &:before {
+                            content: "\f078" !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .collapse.navbar-collapse {
+            display: none;
+            width: 100%;
+
+            li {
+                width: 100%;
+                border: 1px solid #d5d5d5;
+                margin-top: 0;
+                padding: 10px;
+
+                .btn.btn-promo {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .collapsing.navbar-collapse {
+            li {
+                display: none;
+                width: 100%;
+
+                li {
+                    width: 100%;
+                    border: 1px solid #d5d5d5;
+                    margin-top: 0;
+                    padding: 10px;
+
+                    .btn.btn-promo {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            li.in {
+                display: block;
+            }
+        }
+
+        .collapse.navbar-collapse.in {
+            display: block;
+        }
+
+        .navbar-collapse.in {
+            max-height: 500px;
+            overflow-y: auto;
+            border-bottom: 1px solid #d5d5d5;
+        }
+
+        .dropdown-menu {
+            box-shadow: none;
+            float: left;
+            left: auto;
+            margin: 0;
+            position: relative;
+            right: auto;
+            text-align: left;
+            top: auto;
+            width: 100%;
+            border-radius: 0;
+            padding: 10px;
+        }
+    }
+   
+}
+
+@media (min-width: 900px) {
+    #logged-in-menu {
+        .navbar-collapse {
+            width: auto;
+            border-top: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .navbar-collapse.collapse {
+            display: block !important;
+            height: auto !important;
+            overflow: visible !important;
+        }
+
+        .navbar-collapse.in {
+            overflow-y: visible;
+        }
+    }
+ 
+}
+
+@media all and (max-width: 500px) {
+    #logged-in-menu {
+        .navbar {
+            top: 55px;
+        }
+    }
+}

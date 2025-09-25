@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "BrandonGrotesque-Bold";
+    src: url("webfonts/231A37_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/231A37_0_0.woff") format("woff"), url("webfonts/231A37_0_0.ttf") format("truetype");
+}
+#cosmos_account_summary .column_account {
+    width: 165px;
+}
+#cosmos_account_summary .live_table_title {
+  /*  background: rgba(0, 0, 0, 0) url("../images/skin_markets/logo_markets_trader.png") no-repeat scroll 0 0; */
+	background: rgba(0, 0, 0, 0) url("../img/trade-icon.jpg") no-repeat scroll 0 0;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0 0 0 24px;
+	font-family:"Titillium Web",sans-serif;
+}
+#cosmos_account_summary table tbody td {
+    padding: 10px 0 6px;
+}
+#cosmos_account_summary .top {
+    margin: 8px 0 0 8px;
+}
+#cosmos_account_summary .top a {
+    float: left;
+    height: 61px;
+    margin: 0 7px;
+    text-decoration: none;
+}
+#cosmos_account_summary .top a span {
+    color: white;
+    display: block;
+    font-size: 16px;
+}
+#cosmos_account_summary .top a.fund {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/account_summary_cosmos_buttons.png") no-repeat scroll 0 0;
+    width: 285px;
+}
+#cosmos_account_summary .top a.fund:hover {
+    background-position: -285px 0;
+}
+#cosmos_account_summary .top a.fund span {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/icon_fund.png") no-repeat scroll left center;
+    font-weight: bold;
+    margin: 0 0 0 34px;
+    max-height: 36px;
+    overflow: hidden;
+    padding-left: 30px;
+    position: relative;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 210px;
+}
+#cosmos_account_summary .top a.real {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/account_summary_cosmos_buttons_down.png") no-repeat scroll 0 0;
+    width: 230px;
+}
+#cosmos_account_summary .top a.real:hover {
+    background-position: -230px 0;
+}
+#cosmos_account_summary .top a.real span {
+    margin: 12px 0 0 105px;
+}
+#cosmos_account_summary .top a.inactive, #cosmos_account_summary .top a.inactive:hover {
+    background-position: -460px 0;
+}
+#cosmos_account_summary .bottom {
+    margin: 10px 61px 0 10px;
+    text-align: right;
+}
+#cosmos_account_summary .inactive, #cosmos_account_summary .inactive:hover {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+.ar #cosmos_account_summary .live_table_title {
+    background-position: right center;
+    padding: 0 24px 0 0;
+}
+.ar #cosmos_account_summary .bottom {
+    margin: 10px 10px 0 61px;
+    text-align: left;
+}
+.ar #cosmos_account_summary .real, .de #cosmos_account_summary .real, .hu #cosmos_account_summary .real, .jp #cosmos_account_summary .real, .nl #cosmos_account_summary .real {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/account_summary_cosmos_buttons_up.png") no-repeat scroll 0 0 !important;
+}
+.ar #cosmos_account_summary .real span, .de #cosmos_account_summary .real span, .hu #cosmos_account_summary .real span, .jp #cosmos_account_summary .real span, .nl #cosmos_account_summary .real span {
+    margin-top: 32px !important;
+}
+#cosmos_congratulations {
+    padding-top: 8px;
+}
+#cosmos_congratulations .title {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/icon_congratulations.png") no-repeat scroll 0 0;
+    color: #56881b;
+   /* font-family: BrandonGrotesque-Bold; */
+	font-family: "Titillium Web",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 10px 6px;
+    padding: 3px 0 0 24px;
+    text-transform: uppercase;
+}
+#cosmos_congratulations .content {
+    background-color: #f6f6f6;
+    margin-bottom: 37px;
+    padding: 15px 15px 27px;
+}
+#cosmos_congratulations .content > div {
+    width: 310px;
+}
+#cosmos_congratulations .img {
+    float: left;
+}
+#cosmos_congratulations .call {
+    float: left;
+}
+#cosmos_congratulations .call .img {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/icon_phone.png") no-repeat scroll 0 0;
+    height: 35px;
+    margin-left: 12px;
+    width: 37px;
+}
+#cosmos_congratulations .call .text {
+    margin-left: 64px;
+}
+#cosmos_congratulations .mail {
+    float: right;
+    margin-right: 20px;
+}
+#cosmos_congratulations .mail .img {
+    background: rgba(0, 0, 0, 0) url("../images/skin_markets/icon_letter.png") no-repeat scroll 0 0;
+    height: 20px;
+    margin: 6px 0 0 5px;
+    width: 30px;
+}
+#cosmos_congratulations .mail .text {
+    margin-left: 53px;
+}
+.ar #cosmos_congratulations .title {
+    background-position: right center;
+    padding: 3px 24px 0 0;
+}
+#cosmos_account_summary {
+    clear: both;
+    margin-left: 5px;
+}
+#cosmos_account_summary.warning_msg {
+    margin: 15px;
+}
+#cosmos_account_summary .submit_btn {
+    background-image: none;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 1.42857;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 140px;
+}
+#cosmos_account_summary .submit_btn.keystock {
+    -moz-user-select: none;
+    background-color: #008f52;
+    color: #fff !important;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#cosmos_account_summary .submit_btn.keystock:hover {
+    background-color: #f2b048;
+}
+#cosmos_account_summary .submit_btn.forexyard {
+    background-color: transparent;
+    background-image: url("../images/skin_forexyard/add_new_account_btn_bg.png");
+    background-repeat: no-repeat;
+    color: #fff !important;
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+}
+#cosmos_account_summary .submit_btn.trade {
+    float: left;
+}

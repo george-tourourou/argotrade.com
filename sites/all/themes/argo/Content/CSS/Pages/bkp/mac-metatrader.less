@@ -1,0 +1,361 @@
+
+html:lang(ar){
+  #mac-metatrader{
+    .how-to-install .block-1 .img-area .step-1-arrow{
+      transform: rotateY(180deg);
+      right: -59px;
+    }
+    .how-to-install .block-2 .img-area .step-2-arrow{
+      transform: rotateY(180deg);
+    }
+    .how-to-install .text-area a.download-link .arrow-icon{
+      transform: rotateY(180deg);
+      padding-left: 10px;
+    }
+    .how-to-install .text-area a.download-link:hover{
+      .arrow-icon{
+        transform: rotateY(180deg);
+        padding-right: 17px;
+      }
+    }
+  }
+}
+
+#mac-metatrader {
+.hide-tablet{
+  display: none;
+}
+  h3{
+    font-size: 30px;
+    color: #171f29;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  p{
+    font-size: 16px;
+    color: #808080;
+    font-weight: 500;
+  }
+
+  .btn-green{
+    font-size: 14px;
+    padding: 13px 25px;
+    box-shadow: 0 0 3px 0 rgba(62, 152, 150, 0.6);
+    font-weight: bold;
+  }
+
+
+  .banner-block{
+    margin-top: 55px;
+    padding-top:67px;
+    padding-bottom: 97px;
+    background:url('/sites/all/themes/argo/Content/Images/Pages/mac-metatrader/mac-mt-bg.jpg') no-repeat center / cover;
+
+    .text-area{
+      h3{
+        padding-bottom: 33px;
+      }
+      p{
+        padding-bottom: 63px;
+      }
+
+    }
+
+    .img-area{
+      text-align: center;
+      img{
+        padding-top: 30px;
+      }
+      .small{
+        font-size: 14px;
+      }
+    }
+  }
+
+  .how-to-install{
+    padding-top: 95px;
+    padding-bottom: 135px;
+    .text-area{
+      h3{
+        padding-bottom: 25px;
+        b{
+          font-weight: bold;
+        }
+      }
+
+      p{
+        padding-bottom: 20px;
+        b{
+          font-weight: bold;
+        }
+      }
+
+      a.download-link{
+        font-size: 17px;
+        font-weight: bold;
+        color: #3e9896;
+        padding-top: 25px;
+        padding-bottom: 45px;
+        display: inline-block;
+        cursor: pointer;
+
+        &:hover{
+          color: #171f29;
+
+          .arrow-icon{
+            background: url(/sites/all/themes/argo/Content/Images/Common/arrows/arrow-right-dark.svg) no-repeat right;
+            width: 0px;
+            padding-left: 17px;
+            height: 12px;
+          }
+        }
+      }
+
+      .btn-area{
+        text-align: center;
+      }
+    }
+
+    .block-row{
+      display: flex;
+      align-items: center;
+    }
+
+    .block-1{
+      padding-bottom: 100px;
+      .text-area{
+        padding-right: 40px;
+      }
+      .img-area{
+        position: relative;
+        .step-1-arrow{
+          position: absolute;
+          bottom: -73px;
+          left: -59px;
+        }
+      }
+    }
+
+    .block-2{
+      padding-bottom: 95px;
+      .text-area{
+        padding-left: 40px;
+      }
+      .img-area{
+        position: relative;
+        .step-2-arrow{
+          position: absolute;
+          bottom: -64px;
+        }
+      }
+    }
+
+    .block-3{
+      padding-bottom: 117px;
+      .text-area{
+        padding-right: 40px;
+      }
+    }
+
+    .block-4{
+      .text-area{
+        text-align: center;
+        p{
+          line-height: 1.75;
+          padding-bottom: 30px;
+        }
+      }
+      .btn-area{
+        .btn-green{
+          display: inline-block;
+        }
+      }
+    }
+
+  }
+
+}
+
+
+@media screen and (max-width: 1024px){
+  #mac-metatrader {
+    .show-tablet{
+      display: inline-block;
+    }
+    .banner-block{
+      .text-area{
+        width: 65%;
+      }
+      .img-area{
+        width: 35%;
+      }
+    }
+
+    .how-to-install{
+      .text-area{
+        text-align: center;
+        p, a, h3{
+          text-align: center;
+        }
+      }
+
+      .block-row{
+        display: block;
+        .text-area{
+          width: 100%;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .img-area{
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      .block-1{
+        padding-bottom: 142px;
+        .img-area{
+          .step-1-arrow{
+            bottom: -127px;
+            left: 50%;
+          }
+        }
+      }
+
+      .block-2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        .text-area{
+          order: 1;
+        }
+        .img-area{
+          order: 2;
+          .step-2-arrow{
+            position: absolute;
+            bottom: -120px;
+            left: 50%;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 850px){
+  #mac-metatrader {
+    .banner-block{
+      .text-area{
+        br{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  #mac-metatrader {
+    .show-mobile{
+      display: inline !important;
+    }
+    h3{
+      font-size: 23px;
+      text-align: center;
+    }
+    p{
+      font-size: 13px;
+      text-align: center;
+    }
+    .btn-area{
+      text-align: center;
+      .btn-green{
+        font-size: 14px;
+      }
+    }
+
+    .banner-block{
+      padding-top: 45px;
+      padding-bottom: 40px;
+      background:url('/sites/all/themes/argo/Content/Images/Pages/mac-metatrader/mobile/mac-mt-bg-mobile.jpg') no-repeat center / cover;
+
+      .show-mobile{
+        display: inline !important;
+      }
+
+      .btn-area{
+        .btn-green{
+          display: inline-block;
+        }
+      }
+
+      .text-area{
+        width: 100%;
+        text-align: center;
+
+        p{
+          padding-bottom: 20px;
+        }
+        br{
+          display: none;
+          &:after{
+            content: ' ';
+          }
+        }
+        .logo-mobile{
+          padding-bottom: 27px;
+          p.small{
+            text-align: center;
+            font-size: 10px;
+            font-weight: 500;
+            margin:0;
+            color: #171f29;
+          }
+        }
+
+      }
+
+      .img-area{
+        width: 100%;
+      }
+    }
+
+    .how-to-install{
+      padding-top: 40px;
+      padding-bottom: 100px;
+
+      .block-1{
+        padding-bottom: 104px;
+        .img-area{
+          .step-1-arrow{
+            height: 75px;
+            bottom: -80px;
+          }
+        }
+      }
+
+      .block-2{
+        padding-bottom: 100px;
+        .img-area{
+          .step-2-arrow{
+            height: 75px;
+            bottom: -80px;
+          }
+        }
+      }
+
+      .block-3{
+        padding-bottom: 45px;
+      }
+
+      //.block-row{
+      //  .img-area{
+      //    text-align: center;
+      //  }
+      //}
+    }
+  }
+}

@@ -1,0 +1,246 @@
+#front-page .homepage-banner-block {
+  padding: 158px 0 100px;
+  background-image: linear-gradient(to bottom, #fff, #F7F7F7);
+}
+#front-page .homepage-banner-block .txt-area,
+#front-page .homepage-banner-block .img-area,
+#front-page .homepage-banner-block .cta-btns {
+  text-align: center;
+}
+#front-page .homepage-banner-block .txt-area {
+  padding-bottom: 16px;
+}
+#front-page .homepage-banner-block .title {
+  padding-bottom: 18px;
+}
+#front-page .homepage-banner-block .subtitle {
+  padding-bottom: 18px;
+}
+#front-page .homepage-banner-block .cta-btns {
+  padding-bottom: 65px;
+}
+#front-page .homepage-banner-block .btn-blue {
+  text-transform: capitalize;
+  padding: 18px 0;
+  min-width: 200px;
+}
+#front-page .banner-trading-center {
+  padding: 100px 0 73px;
+  background-image: linear-gradient(to bottom, #162657 0%, #1d2c5c 100%);
+}
+#front-page .banner-trading-center .text-area {
+  padding-bottom: 31px;
+}
+#front-page .banner-trading-center .text-area .title {
+  color: #FFF;
+  line-height: 1.3;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#front-page .banner-trading-center .text-area ul li {
+  color: #fff;
+  padding-bottom: 9px;
+}
+#front-page .banner-trading-center .btn-area {
+  padding-bottom: 16px;
+}
+#front-page .banner-trading-center .btn-area .btn {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-width: 158px;
+}
+#front-page .banner-trading-center .img-area {
+  position: relative;
+  padding-top: 38px;
+}
+#front-page .banner-trading-center .img-area .flying-phones {
+  margin-top: -212px;
+  margin-bottom: -210px;
+  padding-left: 78px;
+  position: relative;
+}
+#front-page .banner-trading-center .img-area span.big-txt-bg {
+  font-size: 150px;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom, #f4f4f4, rgba(19, 22, 35, 0));
+  opacity: 0.04;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  z-index: 1;
+  margin-top: -50px;
+}
+#front-page .banner-trading-center .img-area span.big-txt-bg .part-2 {
+  margin-left: 20%;
+}
+#front-page .banner-wild-markets .txt-area h2.title br {
+  display: none;
+}
+#front-page .banner-platforms {
+  padding: 130px 0 157px;
+}
+#front-page .banner-platforms .text-area,
+#front-page .banner-platforms .description-area,
+#front-page .banner-platforms .apps-area,
+#front-page .banner-platforms .img-area {
+  text-align: center;
+}
+#front-page .banner-platforms .text-area {
+  padding-bottom: 69px;
+}
+#front-page .banner-platforms .text-area h2 {
+  padding-bottom: 20px;
+}
+#front-page .banner-platforms .img-area {
+  padding-bottom: 61px;
+}
+#front-page .banner-platforms .description-area {
+  padding: 0 20% 51px;
+}
+#front-page .banner-platforms .description-area .description-p {
+  line-height: 1.6;
+}
+#front-page .banner-platforms .apps-area .btn {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+#front-page .banner-platforms .apps-area .btn.platform-webtrader .icon-platform {
+  margin: -10px 5px -6px 0;
+}
+#front-page .banner-platforms .apps-area .btn.platform-webtrader .icon-platform.white {
+  display: none;
+}
+#front-page .banner-platforms .apps-area .btn.platform-webtrader:hover .icon-platform.white {
+  display: inline-block;
+}
+#front-page .banner-platforms .apps-area .btn.platform-webtrader:hover .icon-platform.dark {
+  display: none;
+}
+html:lang(ar) #front-page .banner-platforms .apps-area .btn.platform-webtrader .icon-platform {
+  margin: -10px 0 -6px 5px;
+}
+@media only screen and (max-width: 1440px) {
+  #front-page .homepage-banner-block .img-area .laptop-and-instruments {
+    width: 80%;
+  }
+  #front-page .banner-platforms .img-area .set-phones {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #front-page {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page .homepage-banner-block {
+    padding: 128px 0 0;
+  }
+  #front-page .homepage-banner-block .txt-area {
+    padding: 0 8% 25px;
+  }
+  #front-page .homepage-banner-block .mob-laptop.tablet-version.phone-device {
+    display: inline-block;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 3;
+  }
+  #front-page .banner-trading-center .text-area {
+    padding: 0 10% 31px;
+  }
+  #front-page .banner-trading-center .text-area .title {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #front-page .banner-trading-center .text-area .ticks {
+    margin: auto;
+    float: none;
+    display: block;
+    width: 300px;
+  }
+  #front-page .banner-trading-center .img-area {
+    text-align: center;
+  }
+  #front-page .banner-trading-center .img-area .flying-phones.tablet-version.phone-device {
+    display: inline-block;
+  }
+  #front-page .banner-trading-center .img-area .flying-phones {
+    margin-top: 0;
+    margin-bottom: -210px;
+    padding-left: 0;
+    position: relative;
+    max-width: 400px;
+  }
+  #front-page .banner-platforms .description-area {
+    padding: 0 10% 31px;
+  }
+  #front-page .banner-platforms .img-area .set-phones {
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  #front-page .banner-platforms .apps-area .btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #front-page .homepage-banner-block {
+    padding: 89px 0 0;
+  }
+  #front-page .homepage-banner-block .txt-area {
+    padding: 0 7% 20px;
+  }
+  #front-page .homepage-banner-block .cta-btns {
+    padding-bottom: 38px;
+  }
+  #front-page .banner-wild-markets .txt-area h2.title br {
+    display: inline-block;
+  }
+  #front-page .banner-wild-markets .link-area a.learn-more-btn {
+    border: solid 1px rgba(48, 55, 120, 0.2);
+    border-radius: 50px;
+  }
+  #front-page .banner-trading-center {
+    padding: 64px 0 106px;
+    background-image: linear-gradient(to bottom, #162657 0%, #1d2c5c 100%);
+  }
+  #front-page .banner-trading-center .text-area {
+    padding: 0 10% 33px;
+  }
+  #front-page .banner-trading-center .text-area .title {
+    padding-bottom: 26px;
+  }
+  #front-page .banner-trading-center .text-area .ticks {
+    width: 250px;
+    padding: 10px 0 0 39px;
+  }
+  #front-page .banner-trading-center .text-area ul li {
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+  #front-page .banner-platforms {
+    padding: 170px 0 94px;
+  }
+  #front-page .banner-platforms .text-area {
+    padding: 0 10% 34px;
+  }
+  #front-page .banner-platforms .text-area h2 {
+    padding-bottom: 10px;
+  }
+  #front-page .banner-platforms .text-area .subtitle {
+    padding: 0 11%;
+  }
+  #front-page .banner-platforms .img-area {
+    padding-bottom: 58px;
+  }
+  #front-page .banner-platforms .img-area .set-phones {
+    width: 129%;
+    margin-left: -16%;
+    margin-right: -16%;
+  }
+}
+/*# sourceMappingURL=Front.css.map */

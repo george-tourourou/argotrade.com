@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Installation actions for Linkicon.
+ */
+
+/**
+ * Moved theme functions to linkicon.theme.inc.
+ */
+function linkicon_update_7101() {
+  // Do nothing to clear cache.
+}

@@ -1,0 +1,18 @@
+#payment-providers .payment-providers {
+  background-color: #ebebec;
+  padding: 10px 0;
+}
+#payment-providers .payment-providers .img-area {
+  text-align: center;
+}
+@media all and (max-width: 1200px) {
+  #payment-providers .img-area img {
+    margin: auto;
+  }
+}
+@media all and (max-width: 325px) {
+  #payment-providers .img-area img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=payment-providers.css.map */

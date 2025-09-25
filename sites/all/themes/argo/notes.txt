@@ -1,0 +1,6 @@
+Page cfds/rollovers-dates is located here : 
+/var/www/beta-argo.trade/sites/all/modules/lcm/instruments/templates
+
+The head before body for this theme is located here : 
+/var/www/beta-argo.trade/sites/all/themes/argo/templates
+

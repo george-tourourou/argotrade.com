@@ -1,0 +1,110 @@
+@import "../Common/Variables";
+.regulation-pack-page {
+  .regulation-pack-banner-2 {
+    padding: 135px 0 254px;
+    .text-area {
+      padding-bottom: 63px;
+    }
+    .title {
+      padding-bottom: 43px;
+    }
+    .subtitle {
+      line-height: 1.8;
+    }
+    .pdfs-area div.licence {
+      background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/file-icon.svg") no-repeat scroll left center / 33px;
+      padding: 19px 60px 0 60px;
+      min-height: 60px;
+
+      .pdf-file {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+html:lang(ar){
+  .regulation-pack-page {
+    .regulation-pack-banner-2 {
+      .pdfs-area div.licence {
+        background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/file-icon.svg") no-repeat scroll right center / 33px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN_HR) {
+  .regulation-pack-page .regulation-pack-banner-2 .title {
+    padding-right: 10%;
+  }
+  html:lang(ar) {
+    .regulation-pack-page .regulation-pack-banner-2 .title {
+      padding-right: 0;
+    }
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN) {
+  .regulation-pack-page .regulation-pack-banner-2 .title {
+    padding-right: 0;
+  }
+  .regulation-pack-page .regulation-pack-banner-2 {
+    padding: 105px 0 144px;
+
+    .pdfs-area div.licence .pdf-file {
+      font-size: 16px;
+    }
+    .pdfs-area div.licence {
+      padding: 19px 45px 0 45px;
+    }
+    .img-area img{
+      width: 100%;
+    }
+
+  }
+}
+@media only screen and (max-width: @TABLET_SCREEN) {
+  .regulation-pack-page .regulation-pack-banner-2 {
+    padding: 65px 0 84px;
+    .title, .subtitle {
+      text-align: center;
+    }
+    .pdfs-area div.licence {
+      padding: 19px 35px 0 35px;
+    }
+  }
+
+}
+@media only screen and (max-width: @PHONE_SCREEN) {
+  .regulation-pack-page {
+    .title {
+      padding-bottom: 23px;
+    }
+    .text-area {
+      padding-bottom: 33px;
+    }
+    .regulation-pack-banner-2 {
+      padding: 55px 0 64px;
+      .pdfs-area div.licence .pdf-file {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .regulation-pack-page {
+    .regulation-pack-banner-2 {
+      .pdfs-area div.licence {
+        //background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/file-icon.svg") no-repeat scroll left center / 24px;
+        background-size: 24px;
+      }
+    }
+  }
+  html:lang(ar){
+    .regulation-pack-page {
+      .regulation-pack-banner-2 {
+        .pdfs-area div.licence {
+          background-size: 24px;
+          //background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/common/icons/file-icon.svg") no-repeat scroll right center / 24px;
+        }
+      }
+    }
+  }
+}

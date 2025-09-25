@@ -1,0 +1,907 @@
+.assets-description .btn-green.btn {
+  padding: 15px 52px;
+}
+.assets-description .btn.btn-transparent {
+  padding: 14px 17px;
+  margin: 0 20px !important;
+  border-radius: 40px;
+}
+.assets-description .btn.btn-transparent:hover {
+  border-color: #FFFFFF !important;
+}
+.assets .main-banner-asset-page {
+  padding-top: 208px;
+  padding-bottom: 150px;
+  background-color: #394458;
+  min-height: 593px;
+}
+.assets .main-banner-asset-page .text-area {
+  padding: 0 22%;
+}
+.assets .main-banner-asset-page .text-area .title,
+.assets .main-banner-asset-page .text-area .paragraph {
+  text-align: center;
+}
+.assets .main-banner-asset-page .text-area .title {
+  color: #FFF;
+  padding-bottom: 18px;
+  line-height: 1.23;
+}
+.assets .main-banner-asset-page .text-area .paragraph {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.55;
+}
+.assets .banner2 {
+  background: #f6f6f6;
+  padding-top: 74px;
+}
+.assets .banner2 .assets-description {
+  padding: 69px 50px;
+}
+.assets .banner2 .assets-description .title {
+  line-height: 1.4;
+  padding-bottom: 50px;
+}
+.assets .banner2 .assets-description .paragraph {
+  padding: 10px 0 17px;
+  line-height: 1.85;
+}
+.assets .banner2 .assets-table {
+  padding: 35px 50px 50px;
+}
+.assets .banner2 .assets-table h2 {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.assets .banner2 .assets-table #market-stats {
+  background-color: #e6e6e6;
+}
+.assets .banner2 .assets-table p.forexfeed-msg {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #000;
+}
+.assets .banner2 .border-left-gold {
+  border-top: 1px solid rgba(0, 0, 0, 0.11);
+  margin-top: 26px;
+  padding: 36px 0;
+}
+.assets .banner2 .border-left-gold .txt-area {
+  padding-right: 13px;
+}
+.assets .banner2 .border-left-gold .txt-area .txt {
+  line-height: 1.3;
+  font-weight: 600;
+}
+.assets .banner2 .border-left-gold .btn-area {
+  padding: 11px 20px;
+  text-align: center;
+}
+.assets .banner2 .border-left-gold .btn-area .btn {
+  width: 100%;
+  padding: 16px 0;
+}
+.assets .banner2 .border-left-gold .btn-area .commission-link {
+  font-size: 13px;
+  text-align: center;
+}
+.assets .banner2 .border-left-gold .btn-area .commission-link:hover {
+  text-decoration: underline;
+}
+.assets .banner2 .border-left-gold > a {
+  margin-top: 0;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+.assets .banner2 .search-area .form-item {
+  margin: 50px auto 49px;
+}
+.assets .banner3 {
+  background-image: linear-gradient(to bottom, #162657 0%, #1d2c5c);
+  padding: 103px 0 94px;
+}
+.assets .banner3 .assets-description .title,
+.assets .banner3 .assets-description .paragraph {
+  color: #fff;
+  text-align: center;
+  padding: 0 20%;
+}
+.assets .banner3 .assets-description .title {
+  font-weight: 700;
+  padding-bottom: 27px;
+}
+.assets .banner3 .assets-description .paragraph {
+  padding-bottom: 25px;
+  line-height: 1.7;
+}
+.assets .banner3 .assets-description .btn-area {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 80px;
+}
+.assets .banner3 .assets-description .btn-area .btn {
+  padding: 17px 10px;
+  margin: 0 5px;
+  min-width: 234px;
+}
+.assets .banner3 .img-area {
+  text-align: center;
+}
+.assets .banner3 .img-area .txt-area {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff4f;
+  width: 100%;
+}
+.assets .banner3 .img-area .icon-area {
+  display: inline-block;
+  float: unset;
+  margin: auto;
+}
+.assets .banner3 .img-area .instrument-icon-text {
+  text-align: center;
+}
+.assets .banner3 .img-area .instrument-icon-text {
+  display: inline-block;
+}
+.assets .banner4 {
+  background: #f6f6f6;
+  padding: 182px 0 173px;
+}
+.assets .banner4 .description-area {
+  padding-top: 47px;
+  padding-right: 7%;
+}
+.assets .banner4 .description-area .title {
+  padding-bottom: 32px;
+}
+.assets .banner4 .description-area .paragraph {
+  padding-bottom: 25px;
+  line-height: 1.7;
+}
+.assets .banner4 .description-area .paragraph.last {
+  padding-bottom: 50px;
+}
+.assets .banner4 .description-area .btn {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.assets .banner4 .img-area {
+  padding-left: 30px;
+}
+.assets.stocks .main-banner-asset-page {
+  background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-stocks.jpg") no-repeat scroll top center / cover;
+}
+.assets.indices .main-banner-asset-page {
+  background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-indices.jpg") no-repeat scroll top center / cover;
+}
+.assets.indices .main-banner-asset-page .text-area {
+  padding: 0 19%;
+}
+.assets.indices .banner3 .icon-area {
+  width: 63px;
+  height: 63px;
+  background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-indices-page-logo.png") 0 0;
+}
+.assets.indices .banner3 .assets-description .paragraph {
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.assets.indices .banner3 .instrument-icon-text {
+  width: 100px;
+}
+.assets.indices .banner3 .instrument-icon-2 .icon-area {
+  background-position-x: -111px;
+}
+.assets.indices .banner3 .instrument-icon-3 .icon-area {
+  background-position-x: -221px;
+}
+.assets.indices .banner3 .instrument-icon-4 .icon-area {
+  background-position-x: -337px;
+}
+.assets.indices .banner3 .instrument-icon-5 .icon-area {
+  background-position-x: -450px;
+}
+.assets.indices .banner3 .instrument-icon-6 .icon-area {
+  background-position-x: -564px;
+}
+.assets.indices .banner3 .instrument-icon-7 .icon-area {
+  background-position-x: -673px;
+}
+.assets.commodities .main-banner-asset-page {
+  background: #384666 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-commodities.jpg") no-repeat scroll top center / cover;
+}
+.assets.commodities .banner2 .border-left-gold .txt-area {
+  padding-right: 0;
+}
+.assets.commodities .banner3 .icon-area {
+  height: 70px;
+  background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-commod-page-logo.png") 0 0;
+}
+.assets.commodities .banner3 .instrument-icon-text {
+  width: 100px;
+}
+.assets.commodities .banner3 .instrument-icon-1 .icon-area {
+  width: 29px;
+}
+.assets.commodities .banner3 .instrument-icon-2 .icon-area {
+  background-position-x: -98px;
+  width: 40px;
+}
+.assets.commodities .banner3 .instrument-icon-3 .icon-area {
+  background-position-x: -197px;
+  width: 69px;
+}
+.assets.commodities .banner3 .instrument-icon-4 .icon-area {
+  background-position-x: -331px;
+  width: 36px;
+}
+.assets.commodities .banner3 .instrument-icon-5 .icon-area {
+  background-position-x: -425px;
+  width: 46px;
+}
+.assets.commodities .banner3 .instrument-icon-6 .icon-area {
+  background-position-x: -528px;
+  width: 58px;
+}
+.assets.commodities .banner3 .instrument-icon-7 .icon-area {
+  background-position-x: -640px;
+  width: 78px;
+}
+.assets.forex .main-banner-asset-page {
+  background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-forex.png") no-repeat scroll top center / cover;
+}
+.assets.forex .main-banner-asset-page .text-area {
+  padding: 0 9%;
+}
+.assets.forex .main-banner-asset-page .text-area .paragraph {
+  padding: 0 9%;
+}
+.assets.forex .banner3 .assets-description .paragraph {
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.assets.forex .banner3 .icon-area {
+  height: 47px;
+  background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-forex-page-logo.png") 0 0;
+}
+.assets.forex .banner3 .instrument-icon-text {
+  width: 100px;
+}
+.assets.forex .banner3 .instrument-icon-1 .icon-area {
+  width: 63px;
+}
+.assets.forex .banner3 .instrument-icon-2 .icon-area {
+  background-position-x: -116px;
+  width: 29px;
+}
+.assets.forex .banner3 .instrument-icon-3 .icon-area {
+  background-position-x: -205px;
+  width: 31px;
+}
+.assets.forex .banner3 .instrument-icon-4 .icon-area {
+  background-position-x: -300px;
+  width: 29px;
+}
+.assets.forex .banner3 .instrument-icon-5 .icon-area {
+  background-position-x: -388px;
+  width: 29px;
+}
+.assets.forex .banner3 .instrument-icon-6 .icon-area {
+  background-position-x: -473px;
+  width: 29px;
+}
+.assets.forex .banner3 .instrument-icon-7 .icon-area {
+  background-position-x: -557px;
+  width: 38px;
+}
+.assets.forex .banner3 .instrument-icon-8 .icon-area {
+  background-position-x: -657px;
+  width: 26px;
+}
+.assets.bonds .main-banner-asset-page {
+  background: #384666 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-bonds.jpg") no-repeat scroll top center / cover;
+}
+.assets.bonds .main-banner-asset-page .text-area {
+  padding: 0 10%;
+}
+.assets.etfs .main-banner-asset-page {
+  background: #384666 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-etfs.jpg") no-repeat scroll top center / cover;
+}
+.assets.etfs .main-banner-asset-page .text-area {
+  padding: 0 9%;
+}
+.assets.etfs .main-banner-asset-page .text-area .paragraph {
+  padding: 0 9%;
+}
+.assets.etfs .banner3 .icon-area {
+  height: 47px;
+  width: 43px;
+  background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-etfs-page-logo.png") 0 0;
+}
+.assets.etfs .banner3 .instrument-icon-text {
+  width: 100px;
+}
+.assets.crypto .main-banner-asset-page {
+  background: #384666 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-crypto.jpg") no-repeat scroll top center / cover;
+}
+.assets.crypto .main-banner-asset-page .text-area {
+  padding: 0 9%;
+}
+.assets.crypto .main-banner-asset-page .text-area .paragraph {
+  padding: 0 9%;
+}
+.assets.crypto .banner3 .icon-area {
+  height: 47px;
+  background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-crypto-page-logo.png") 0 0;
+}
+.assets.crypto .banner3 .instrument-icon-text {
+  width: 100px;
+}
+.assets.crypto .banner3 .instrument-icon-1 {
+  display: none;
+}
+.assets.crypto .banner3 .instrument-icon-1 .icon-area {
+  width: 40px;
+}
+.assets.crypto .banner3 .instrument-icon-2 .icon-area {
+  background-position-x: -120px;
+  width: 34px;
+}
+.assets.crypto .banner3 .instrument-icon-3 {
+  display: none;
+}
+.assets.crypto .banner3 .instrument-icon-3 .icon-area {
+  background-position-x: -235px;
+  width: 40px;
+}
+.assets.crypto .banner3 .instrument-icon-4 {
+  display: none;
+}
+.assets.crypto .banner3 .instrument-icon-4 .icon-area {
+  background-position-x: -339px;
+  width: 41px;
+}
+.assets.crypto .banner3 .instrument-icon-5 .icon-area {
+  background-position-x: -469px;
+  width: 29px;
+}
+.assets.crypto .banner3 .instrument-icon-6 {
+  display: none;
+}
+.assets.crypto .banner3 .instrument-icon-6 .icon-area {
+  background-position-x: -580px;
+  width: 48px;
+}
+.assets.crypto .banner3 .instrument-icon-7 .icon-area {
+  background-position-x: -696px;
+  width: 46px;
+}
+.assets.crypto .banner3 .instrument-icon-8 .icon-area {
+  background-position-x: -807px;
+  width: 38px;
+}
+body.i18n-es .assets .main-banner-asset-page .text-area {
+  padding: 0 15%;
+}
+body.i18n-es .assets.stocks .banner3 .assets-description .title,
+body.i18n-es .assets.indices .banner3 .assets-description .title,
+body.i18n-es .assets.commodities .banner3 .assets-description .title {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.i18n-es .assets.bonds .main-banner-asset-page .text-area {
+  padding: 0 12%;
+}
+body.i18n-es .assets.commodities .banner2 .border-left-gold .btn-area {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.i18n-es .assets.commodities .banner3 .instrument-icon-text {
+  position: relative;
+  height: 110px;
+}
+body.i18n-es .assets.commodities .banner3 .instrument-icon-text .txt-area {
+  position: absolute;
+}
+body.i18n-es .assets.crypto .banner2 .border-left-gold .btn-area .btn {
+  white-space: unset;
+}
+@media only screen and (max-width: 1440px) {
+  .assets .main-banner-asset-page {
+    padding-top: 178px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .assets .main-banner-asset-page {
+    min-height: 543px;
+  }
+  .assets .banner2 {
+    padding-top: 35px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .assets .banner2 .border-left-gold .btn-area .btn {
+    white-space: break-spaces;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .assets .main-banner-asset-page {
+    padding-top: 110px;
+    padding-bottom: 100px;
+    min-height: 410px;
+  }
+  .assets .main-banner-asset-page .text-area {
+    padding: 0 15%;
+  }
+  .assets .main-banner-asset-page .text-area .title,
+  .assets .main-banner-asset-page .text-area .paragraph {
+    text-align: center;
+  }
+  .assets .main-banner-asset-page .text-area .title {
+    padding-bottom: 10px;
+  }
+  .assets .main-banner-asset-page .text-area .paragraph {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .assets .banner2 {
+    padding: 90px 0 30px;
+  }
+  .assets .banner2 .assets-description {
+    padding: 0 50px;
+  }
+  .assets .banner2 .assets-description .title {
+    padding-bottom: 10px;
+  }
+  .assets .banner3 {
+    padding: 63px 0 44px;
+  }
+  .assets .banner3 .img-area img {
+    width: 100%;
+  }
+  .assets .banner3 .instrument-icon-text {
+    padding-bottom: 20px;
+  }
+  .assets .banner4 {
+    padding: 91px 0 86px;
+  }
+  .assets .banner4 .description-area {
+    padding: 0 15% 30px;
+    text-align: center;
+  }
+  .assets .banner4 .img-area {
+    padding-left: 0;
+    text-align: center;
+  }
+  .assets.forex .main-banner-asset-page .text-area {
+    padding: 0;
+  }
+  .assets.forex .main-banner-asset-page .text-area .paragraph {
+    padding: 0 15%;
+  }
+  .assets.forex .banner3 .instrument-icon-text {
+    width: 90px;
+  }
+  .assets.indices .main-banner-asset-page .text-area {
+    padding: 0 13%;
+  }
+  .assets.bonds .main-banner-asset-page .text-area {
+    padding: 0;
+  }
+  .assets.bonds .main-banner-asset-page .text-area .paragraph {
+    padding: 0 15%;
+  }
+  .assets.etfs .banner3 .icon-area {
+    height: 40px;
+    background: url(/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-etfs-page-logo.png) 0 0 / cover;
+  }
+  .assets.etfs .banner3 .instrument-icon-text {
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .assets .main-banner-asset-page {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    min-height: 380px;
+  }
+  .assets .main-banner-asset-page .text-area {
+    padding: 0;
+  }
+  .assets .banner2 {
+    padding: 50px 0;
+  }
+  .assets .banner2 .assets-table {
+    padding: 35px 0 10px;
+  }
+  .assets .banner2 .assets-description {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .assets .banner2 .border-left-gold .txt-area {
+    text-align: center;
+    padding: 0;
+  }
+  .assets .banner2 .border-left-gold .btn-area {
+    text-align: center;
+    padding: 11px 0;
+  }
+  .assets .banner3 .assets-description .title,
+  .assets .banner3 .assets-description .paragraph {
+    padding: 20px!important;
+  }
+  .assets .banner3 .assets-description .btn-area .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto 10px;
+  }
+  .assets .banner4 .theme-content {
+    display: grid;
+  }
+  .assets .banner4 .img-area {
+    order: 1;
+  }
+  .assets .banner4 .description-area {
+    order: 2;
+  }
+  .assets .banner4 .description-area {
+    padding: 0 9% 30px;
+    text-align: center;
+  }
+  .assets .banner4 .img-area {
+    padding-bottom: 40px;
+  }
+  .assets .banner4 .img-area img {
+    width: 100%;
+  }
+  body.i18n-es .assets .main-banner-asset-page .text-area {
+    padding: 0;
+  }
+  body.i18n-es .assets.bonds .main-banner-asset-page .text-area {
+    padding: 0;
+  }
+  body.i18n-es .assets .banner3 .assets-description .btn-area .btn {
+    white-space: break-spaces;
+  }
+  body.i18n-es .assets-markets .trade-assets-block .text-area .title,
+  body.i18n-es .assets-markets .trade-assets-block .text-area .paragraph {
+    text-align: center;
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .assets .main-banner-asset-page {
+    padding-top: 108px;
+    padding-bottom: 0;
+    min-height: 358px;
+  }
+  .assets .main-banner-asset-page .text-area {
+    padding: 0!important;
+  }
+  .assets .banner2 {
+    padding: 71px 0 46px;
+  }
+  .assets .banner2 .theme-content {
+    max-width: 100%;
+  }
+  .assets .banner2 .assets-description {
+    padding: 0;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    float: unset;
+  }
+  .assets .banner2 .assets-description .title .blue-light {
+    font-weight: 900;
+  }
+  .assets .banner2 .search-area .form-item {
+    margin: 20px auto 29px;
+  }
+  .assets .banner2 .assets-table {
+    padding-top: 0;
+  }
+  .assets .banner2 .assets-table p.forexfeed-msg {
+    padding: 0 15px;
+  }
+  .assets .banner2 .assets-table .search-area {
+    max-width: 350px;
+    margin: auto;
+    float: unset;
+  }
+  .assets .banner2 .border-left-gold {
+    border-top: none;
+    margin-top: 0;
+    padding: 0;
+  }
+  .assets .banner3 {
+    padding: 65px 0 70px;
+  }
+  .assets .banner3 .assets-description .title {
+    padding: 0 0 25px 0!important;
+  }
+  .assets .banner3 .assets-description .paragraph {
+    padding: 0 0 25px 0!important;
+  }
+  .assets .banner3 .assets-description .btn-area {
+    padding-bottom: 50px;
+  }
+  .assets .banner3 .img-area .txt-area {
+    font-size: 14px;
+  }
+  .assets .banner3 .assets-description .btn-area .btn {
+    max-width: 250px;
+  }
+  .assets .banner4 {
+    padding: 81px 0 45px;
+  }
+  .assets .banner4 .description-area .title {
+    padding-bottom: 19px;
+  }
+  .assets .banner4 .description-area .paragraph.last {
+    padding-bottom: 25px;
+  }
+  .assets.stocks .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-stocks.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.stocks .banner3 .icon-area {
+    height: 45px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-commod-page-logo.png") 0 0 / cover;
+  }
+  .assets.stocks .banner3 .instrument-icon-text {
+    width: 100px;
+  }
+  .assets.stocks .banner3 .instrument-icon-1 .icon-area {
+    width: 17px;
+  }
+  .assets.stocks .banner3 .instrument-icon-2 .icon-area {
+    background-position-x: -55px;
+    width: 23px;
+  }
+  .assets.stocks .banner3 .instrument-icon-3 .icon-area {
+    background-position-x: -111px;
+    width: 39px;
+  }
+  .assets.stocks .banner3 .instrument-icon-4 .icon-area {
+    background-position-x: -186px;
+    width: 21px;
+  }
+  .assets.stocks .banner3 .instrument-icon-5 .icon-area {
+    background-position-x: -239px;
+    width: 25px;
+  }
+  .assets.stocks .banner3 .instrument-icon-6 .icon-area {
+    background-position-x: -297px;
+    width: 33px;
+  }
+  .assets.stocks .banner3 .instrument-icon-7 .icon-area {
+    background-position-x: -360px;
+    width: 44px;
+  }
+  .assets.indices .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-indices.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.indices .main-banner-asset-page .text-area .title {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .assets.indices .banner2 .assets-description .title {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .assets.indices .banner3 .icon-area {
+    width: 40px;
+    height: 40px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-indices-page-logo.png") 0 0 / cover;
+  }
+  .assets.indices .banner3 .instrument-icon-text {
+    width: 100px;
+  }
+  .assets.indices .banner3 .instrument-icon-2 .icon-area {
+    background-position-x: -70px;
+  }
+  .assets.indices .banner3 .instrument-icon-3 .icon-area {
+    background-position-x: -140px;
+  }
+  .assets.indices .banner3 .instrument-icon-4 .icon-area {
+    background-position-x: -214px;
+  }
+  .assets.indices .banner3 .instrument-icon-5 .icon-area {
+    background-position-x: -286px;
+  }
+  .assets.indices .banner3 .instrument-icon-6 .icon-area {
+    background-position-x: -358px;
+  }
+  .assets.indices .banner3 .instrument-icon-7 .icon-area {
+    background-position-x: -427px;
+  }
+  .assets.commodities .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-commodities.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.commodities .main-banner-asset-page .text-area .title {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .assets.commodities .banner2 .border-left-gold .txt-area {
+    padding-right: 0;
+  }
+  .assets.commodities .banner3 .icon-area {
+    height: 45px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-commod-page-logo.png") 0 0 / cover;
+  }
+  .assets.commodities .banner3 .instrument-icon-text {
+    width: 75px;
+  }
+  .assets.commodities .banner3 .instrument-icon-1 .icon-area {
+    width: 17px;
+  }
+  .assets.commodities .banner3 .instrument-icon-2 .icon-area {
+    background-position-x: -55px;
+    width: 23px;
+  }
+  .assets.commodities .banner3 .instrument-icon-3 .icon-area {
+    background-position-x: -111px;
+    width: 39px;
+  }
+  .assets.commodities .banner3 .instrument-icon-4 .icon-area {
+    background-position-x: -186px;
+    width: 21px;
+  }
+  .assets.commodities .banner3 .instrument-icon-5 .icon-area {
+    background-position-x: -239px;
+    width: 25px;
+  }
+  .assets.commodities .banner3 .instrument-icon-6 .icon-area {
+    background-position-x: -297px;
+    width: 33px;
+  }
+  .assets.commodities .banner3 .instrument-icon-7 .icon-area {
+    background-position-x: -360px;
+    width: 44px;
+  }
+  .assets.forex .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-forex.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.forex .banner3 .assets-description .paragraph {
+    padding: 0 0 25px;
+  }
+  .assets.forex .banner3 .icon-area {
+    height: 31px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-forex-page-logo.png") 0 0 / cover;
+  }
+  .assets.forex .banner3 .instrument-icon-text {
+    width: 75px;
+  }
+  .assets.forex .banner3 .instrument-icon-1 .icon-area {
+    width: 40px;
+  }
+  .assets.forex .banner3 .instrument-icon-2 .icon-area {
+    background-position-x: -74px;
+    width: 18px;
+  }
+  .assets.forex .banner3 .instrument-icon-3 .icon-area {
+    background-position-x: -130px;
+    width: 20px;
+  }
+  .assets.forex .banner3 .instrument-icon-4 .icon-area {
+    background-position-x: -190px;
+    width: 19px;
+  }
+  .assets.forex .banner3 .instrument-icon-5 .icon-area {
+    background-position-x: -245px;
+    width: 19px;
+  }
+  .assets.forex .banner3 .instrument-icon-6 .icon-area {
+    background-position-x: -298px;
+    width: 19px;
+  }
+  .assets.forex .banner3 .instrument-icon-7 .icon-area {
+    background-position-x: -352px;
+    width: 25px;
+  }
+  .assets.forex .banner3 .instrument-icon-8 .icon-area {
+    background-position-x: -416px;
+    width: 16px;
+  }
+  .assets.bonds .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-bonds.jpg") no-repeat scroll top center / cover;
+    padding-top: 88px;
+  }
+  .assets.bonds .main-banner-asset-page .text-area .title {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .assets.etfs .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-etfs.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.etfs .banner3 .icon-area {
+    height: 31px;
+    width: 30px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-etfs-page-logo.png") 0 0 / cover;
+  }
+  .assets.etfs .banner3 .instrument-icon-text {
+    width: 75px;
+  }
+  .assets.crypto .main-banner-asset-page {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-crypto.jpg") no-repeat scroll top center / cover;
+  }
+  .assets.crypto .banner3 .icon-area {
+    height: 31px;
+    background: url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/argo-crypto-page-logo.png") 0 0 / COVER;
+  }
+  .assets.crypto .banner3 .instrument-icon-text {
+    width: 75px;
+  }
+  .assets.crypto .banner3 .instrument-icon-1 .icon-area {
+    width: 26px;
+  }
+  .assets.crypto .banner3 .instrument-icon-2 .icon-area {
+    background-position-x: -76px;
+    width: 24px;
+  }
+  .assets.crypto .banner3 .instrument-icon-3 .icon-area {
+    background-position-x: -151px;
+    width: 26px;
+  }
+  .assets.crypto .banner3 .instrument-icon-4 .icon-area {
+    background-position-x: -219px;
+    width: 27px;
+  }
+  .assets.crypto .banner3 .instrument-icon-5 .icon-area {
+    background-position-x: -303px;
+    width: 19px;
+  }
+  .assets.crypto .banner3 .instrument-icon-6 .icon-area {
+    background-position-x: -374px;
+    width: 31px;
+  }
+  .assets.crypto .banner3 .instrument-icon-7 .icon-area {
+    background-position-x: -449px;
+    width: 31px;
+  }
+  .assets.crypto .banner3 .instrument-icon-8 .icon-area {
+    background-position-x: -520px;
+    width: 26px;
+  }
+  body.i18n-es .assets .banner3 .assets-description .btn-area .btn {
+    white-space: normal;
+  }
+  body.i18n-es .assets.crypto .banner2 .border-left-gold .btn-area .btn {
+    width: 270px;
+    max-width: 270px;
+  }
+  body.i18n-es .assets.bonds .main-banner-asset-page .text-area .paragraph {
+    padding: 0;
+  }
+  body.i18n-es .assets.bonds .main-banner-asset-page .text-area .title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body.i18n-es .assets.forex .main-banner-asset-page .theme-content {
+    max-width: 360px;
+  }
+  body.i18n-es .assets.forex .main-banner-asset-page .text-area .paragraph {
+    padding: 0;
+  }
+  body.i18n-es .assets.commodities .main-banner-asset-page .text-area .title {
+    font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body.i18n-es .assets.commodities .banner3 .instrument-icon-text {
+    padding-bottom: 70px;
+  }
+  body.i18n-es .assets-markets .trade-assets-block .text-area .title,
+  body.i18n-es .assets-markets .trade-assets-block .text-area .paragraph {
+    padding: 0;
+  }
+  body.i18n-es .assets-markets .trade-assets-block {
+    padding-top: 90px;
+  }
+}
+/*# sourceMappingURL=Assets.css.map */

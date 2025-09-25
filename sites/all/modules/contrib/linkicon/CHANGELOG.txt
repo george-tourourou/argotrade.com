@@ -1,0 +1,50 @@
+
+Link icon 7.x-1.0-dev, 2020-01-12
+---------------------------------
+- Issue #3035351 by gausarts, janes_p: Support FontAwesome 5+ and SVG with JS.
+- Added a new option to support FontAwesome 5+: Additional icon classes
+- Simplified settings at item level to match the container ones, basically
+  removing `linkicon_` prefixes as we are now confident no conflicts found with
+  parent link settings, e.g.: `linkicon_load` to `load`.
+- Added micro optimizations.
+
+Link icon 7.x-1.0-dev, 2019-03-09
+---------------------------------
+- Issue #2986397 by zipymonkey, bohz, gausarts: Predefined titles are not set in
+  linkicon_field_process().
+
+Link icon 7.x-1.0-dev, 2016-05-20
+---------------------------------
+- Issue #2724757 by slbrassard: Required functionality for all link fields
+  broken by module.
+
+Link icon 7.x-1.0-dev, 2016-04-21
+---------------------------------
+- Fixed for Undefined index notices during admin preview.
+
+Link icon 7.x-1.0-dev, 2016-04-11
+---------------------------------
+- Off-loaded admin-related functions into includes/linkicon.admin.inc to
+  de-clutter the module file.
+
+Link icon 7.x-1.0-dev, 2015-11-26
+---------------------------------
+- Cleaned up trivial things.
+
+Link icon 7.x-1.0-dev, 2015-6-11
+--------------------------------
+- Fixed for silly Netbeans windows linebreaking.
+- #2502155 by Sam152: Use field formatter on '\''text'\'' field type.
+
+Link icon 7.x-1.0-dev, 2015-3-24
+--------------------------------
+Fixed trivial missing space between '#theme' => 'icon' at theme_linkicon_item().
+Issue #2413351 by andregriffin: Use tokens or punctuation in predefined title
+  field
+Issue #2453995 by derek smalls: Broken integration with FontAwesome 2x via icon
+  module.
+Added #icon_prefix key to theme_linkicon_item().
+Fixed duplicated icon class when Fontawesome < 4 in use.
+Added preview when Fontawesome module present.
+Fixed various pareview.sh complain with CSS, and other standards.
+Added CHANGELOG.txt.

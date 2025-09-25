@@ -1,0 +1,226 @@
+@import "Variables";
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 16px 0;
+  min-width: 207px;
+  background: transparent none;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 16px;
+  text-align: center;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  //min-width: 200px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn {
+
+}
+.btn-orange {
+  color: #fff;
+  background-color: @ORANGE_COLOR;
+  border: 1px solid @ORANGE_COLOR;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid @ORANGE_COLOR;
+    color: @ORANGE_COLOR;
+    text-decoration: none;
+  }
+}
+
+.btn-orange-reverse{
+  color: @ORANGE_COLOR;
+  border-color: @ORANGE_COLOR;
+  background: transparent;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    color: #ffffff;
+    background: @ORANGE_COLOR;
+    border-color: @ORANGE_COLOR;
+    text-decoration: none;
+  }
+}
+.btn-blue {
+  color: #fff;
+  background-color: @BTN_BLUE_COLOR;
+  border: 1px solid @BTN_BLUE_COLOR;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid @BTN_BLUE_COLOR;
+    color: @BTN_BLUE_COLOR;
+    text-decoration: none;
+  }
+}
+
+.btn-blue-light {
+  color: #fff;
+  background-color: @BACKGROUND_BLUE;
+  border: 1px solid @BACKGROUND_BLUE;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid @BACKGROUND_BLUE;
+    color: @BACKGROUND_BLUE;
+    text-decoration: none;
+  }
+}
+
+
+
+.btn-blue-reverse{
+  color: @BTN_BLUE_COLOR;
+  border-color: @BTN_BLUE_COLOR;
+  background: transparent;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    color: #ffffff;
+    background: @BTN_BLUE_COLOR;
+    border-color: @BTN_BLUE_COLOR;
+    text-decoration: none;
+  }
+}
+
+.btn-blue-reverse-dark-blue {
+  color: @TEXT_BLACKGRAY_COLOR;
+  border-color: @TEXT_BLACKGRAY_COLOR;
+  background: transparent;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    color: #ffffff;
+    background: @TEXT_BLACKGRAY_COLOR;
+    border-color: @TEXT_BLACKGRAY_COLOR;
+    text-decoration: none;
+  }
+}
+//.btn-green {
+//  color: #fff;
+//  background-color: @BRAND_MAIN_COLOR;
+//  border: 1px solid @BRAND_MAIN_COLOR;
+//  border-radius: 40px;
+//  text-transform: uppercase;
+//
+//  &:hover {
+//    background-color: transparent;
+//    border: 1px solid @BRAND_MAIN_COLOR;
+//    color: @BRAND_MAIN_COLOR;
+//    text-decoration: none;
+//  }
+//}
+
+//.btn-green-reverse{
+//  color: @BRAND_MAIN_COLOR;
+//  border-color: @BRAND_MAIN_COLOR;
+//  background: transparent;
+//  border-radius: 40px;
+//  text-transform: uppercase;
+//
+//  &:hover {
+//    color: #ffffff;
+//    background: @BRAND_MAIN_COLOR;
+//    border-color: @BRAND_MAIN_COLOR;
+//    text-decoration: none;
+//  }
+//}
+
+//.btn-white {
+//  color: @TEXT_BLACKGRAY_COLOR;
+//  background-color: #ffffff;
+//  border-color: #ffffff;
+//
+//  &:hover {
+//    background: transparent;
+//    color: #ffffff;
+//    text-decoration: none;
+//  }
+//}
+
+//.btn-outline-white {
+//  color: #ffffff;
+//  border-color: #ffffff;
+//
+//  &:hover {
+//    color: @TEXT_BLACKGRAY_COLOR;
+//    background-color: #ffffff;
+//    border-color: #ffffff;
+//  }
+//}
+
+//.btn-default {
+//  color: @TEXT_BLACKGRAY_COLOR;
+//  border-color: @TEXT_BLACKGRAY_COLOR;
+//
+//  &:hover {
+//    color: #fff;
+//    background-color: darken(#fff, 20%);;
+//  }
+//}
+//
+//.btn-gray {
+//  color: @TEXT_BLACKGRAY_COLOR;
+//  background-color: #cccccc;
+//  border-color: #cccccc;
+//
+//  &:hover {
+//    background-color: darken(#cccccc, 10%);
+//    border-color: darken(#cccccc, 10%);
+//  }
+//}
+
+.btn-white {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  border-radius: 40px;
+  text-transform: capitalize;
+
+  &:hover {
+    color: @BTN_BLUE_COLOR;
+    background: #fff;
+    border-color: #fff;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: @TABLET_SCREEN) {
+  .btn {
+    max-width: 250px;
+    font-size: 14px;
+    margin: 0 auto 5px;
+    display: block;
+    padding: 15px 0;
+    float: unset;
+  }
+}
+@media only screen and (max-width: @PHONE_SCREEN) {
+  .btn {
+    max-width: 200px;
+  }
+}

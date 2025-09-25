@@ -1,0 +1,334 @@
+@import "../Common/Variables";
+#front-page {
+  .homepage-banner-block {
+    padding: 158px 0 100px;
+    background-image: linear-gradient(to bottom, #fff, #F7F7F7);
+    .txt-area,.img-area,.cta-btns {
+      text-align: center;
+    }
+    .txt-area {
+      padding-bottom: 16px;
+    }
+    .title {
+      padding-bottom: 18px;
+    }
+    .subtitle {
+      padding-bottom: 18px;
+    }
+    .cta-btns {
+      padding-bottom: 65px;
+    }
+    .btn-blue {
+      text-transform: capitalize;
+      padding: 18px 0;
+      min-width: 200px;
+    }
+  }
+
+  .banner-trading-center {
+    padding: 100px 0 73px;
+    background-image: linear-gradient(to bottom, #162657 0%, #1d2c5c 100%);
+    //.theme-content
+    .text-area {
+      padding-bottom: 31px;
+      .title {
+        color: #FFF;
+        line-height: 1.3;
+        font-weight: 700;
+        padding-bottom: 20px;
+      }
+      ul li {
+        color: #fff;
+        padding-bottom: 9px;
+      }
+    }
+    .btn-area {
+      padding-bottom: 16px;
+      .btn {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        min-width: 158px;
+      }
+    }
+    .img-area {
+      position: relative;
+      padding-top: 38px;
+      .flying-phones {
+        margin-top: -212px;
+        margin-bottom: -210px;
+        padding-left: 78px;
+        position: relative;
+      }
+      span.big-txt-bg {
+        font-size: 150px;
+        font-weight: 700;
+        //background-image: linear-gradient(to bottom, #1d2d5e, rgba(31, 45, 94, 0));
+        background-image: linear-gradient(to bottom, #f4f4f4, rgba(19, 22, 35, 0));
+        opacity: 0.04;
+        //background-image: linear-gradient(to top, #b8c2ee, rgba(180, 189, 232, 0.64));
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1;
+        z-index: 1;
+        margin-top: -50px;
+        .part-2 {
+          margin-left: 20%;
+        }
+      }
+    }
+  }
+  .banner-wild-markets{
+    .txt-area{
+      h2.title{
+        br{
+          display: none;
+        }
+      }
+    }
+  }
+  .banner-platforms {
+    padding: 130px 0 157px;
+    .text-area,.description-area,.apps-area,.img-area {
+      text-align: center;
+    }
+    .text-area {
+      padding-bottom: 69px;
+      h2 {
+        padding-bottom: 20px;
+      }
+    }
+    .img-area {
+      padding-bottom: 61px;
+    }
+    .description-area {
+      padding: 0 20% 51px;
+      .description-p {
+        line-height: 1.6;
+      }
+    }
+    .apps-area {
+      .btn {
+        margin-left: 7px;
+        margin-right: 7px;
+      }
+      .btn.platform-webtrader {
+
+        .icon-platform {
+          margin: -10px 5px -6px 0;
+          &.white{display: none}
+          &.dark{}
+
+
+        }
+        &:hover .icon-platform{
+          &.white{display: inline-block}
+          &.dark{display: none}
+        }
+      }
+    }
+
+  }
+  //.banner-broker-awards {
+  //  padding: 169px 0 216px;
+  //  background: #f6f6f6;
+  //  .container {
+  //    max-width: 935px;
+  //  }
+  //  .text-area {
+  //    padding-right: 4%;
+  //    padding-top: 67px;
+  //    .title {
+  //      padding-bottom: 21px;
+  //    }
+  //    .description {
+  //      line-height: 1.5;
+  //    }
+  //  }
+  //  .img-area {
+  //    padding-left: 39px;
+  //    .awards-img-1 {
+  //      margin-top: -11px;
+  //    }
+  //  }
+  //}
+}
+html:lang(ar) {
+  #front-page .banner-platforms .apps-area .btn.platform-webtrader .icon-platform {
+    margin: -10px 0 -6px 5px;
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN_HR) {
+  #front-page {
+    .homepage-banner-block .img-area {
+      .laptop-and-instruments{
+        width: 80%;
+      }
+    }
+    .banner-platforms .img-area .set-phones{
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: @LAPTOP_SCREEN) {
+  #front-page {
+    overflow: hidden;
+    .banner-trading-center,.banner-broker-awards {}
+  }
+}
+
+@media only screen and (max-width: @TABLET_SCREEN) {
+  #front-page {
+    .homepage-banner-block {
+      padding: 128px 0 0;
+      .txt-area {
+        padding: 0 8% 25px;
+      }
+      .mob-laptop.tablet-version.phone-device {
+        display: inline-block;
+        margin-bottom: -60px;
+        position: relative;
+        z-index: 3;
+      }
+    }
+
+    .banner-trading-center {
+      .text-area {
+        padding: 0 10% 31px;
+        .title {
+          text-align: center;
+          padding-bottom: 15px;
+        }
+        .ticks {
+          margin: auto;
+          float: none;
+          display: block;
+          width: 300px;
+        }
+      }
+      .img-area {
+        text-align: center;
+        .flying-phones.tablet-version.phone-device {
+          display: inline-block;
+        }
+        .flying-phones {
+          margin-top: 0;
+          margin-bottom: -210px;
+          padding-left: 0;
+          position: relative;
+          max-width: 400px;
+        }
+      }
+    }
+
+    .banner-platforms {
+      .description-area {
+        padding: 0 10% 31px;
+      }
+      .img-area .set-phones {
+        width: 120%;
+        margin-left: -10%;
+        margin-right: -10%;
+      }
+      .apps-area .btn {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    //.banner-broker-awards{
+    //  .container {
+    //    max-width: 720px;
+    //  }
+    //  padding: 60px 0 69px;
+    //  .text-area {
+    //    text-align: center;
+    //    padding-bottom: 60px;
+    //    padding-right: 0;
+    //    padding-left: 0;
+    //  }
+    //  .img-area {
+    //    text-align: center;
+    //    .awards-img-1.tablet-version.phone-device {
+    //      display: inline-block;
+    //    }
+    //  }
+    //}
+  }
+
+}
+
+@media only screen and (max-width: @PHONE_SCREEN) {
+  #front-page {
+    .homepage-banner-block {
+      padding: 89px 0 0;
+      .txt-area {
+        //padding-bottom: 16px;
+        padding: 0 7% 20px;
+      }
+      .cta-btns {
+        padding-bottom: 38px;
+      }
+    }
+    .banner-wild-markets {
+      //padding: 159px 0 100px;
+
+      .txt-area{
+        h2.title{
+          br{
+            display: inline-block;
+          }
+        }
+      }
+
+      .link-area{
+        a.learn-more-btn{
+          border: solid 1px rgba(48, 55, 120, 0.2);
+          border-radius: 50px;
+        }
+      }
+    }
+    .banner-trading-center {
+      padding: 64px 0 106px;
+      background-image: linear-gradient(to bottom, #162657 0%, #1d2c5c 100%);
+
+      .text-area {
+        padding: 0 10% 33px;
+        .title {
+          padding-bottom: 26px;
+        }
+        .ticks {
+          width: 250px;
+          padding: 10px 0 0 39px;
+        }
+        ul li {
+          padding-bottom: 6px;
+          font-size: 14px;
+        }
+      }
+    }
+    .banner-platforms {
+      padding: 170px 0 94px;
+      .text-area {
+        //padding-bottom: 69px;
+        padding: 0 10% 34px;
+        h2 {
+          padding-bottom: 10px;
+        }
+        .subtitle {
+          padding: 0 11%;
+        }
+      }
+      .img-area {
+        padding-bottom: 58px;
+        .set-phones {
+          width: 129%;
+          margin-left: -16%;
+          margin-right: -16%;
+        }
+      }
+    }
+  }
+}

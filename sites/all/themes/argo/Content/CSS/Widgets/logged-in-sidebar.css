@@ -1,0 +1,109 @@
+#logged-in-menu {
+  width: 100%;
+}
+body.node-type-traders-room > .full {
+  padding-top: 0;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 {
+  position: relative;
+  background-color: #FFF;
+  z-index: 9;
+  margin-top: 0;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navbar {
+  min-height: auto;
+  margin: 0;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area {
+  background-color: #fff;
+  float: left;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li {
+  padding: 10px 20px 10px;
+  margin: 0;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li > a {
+  width: 100%;
+  padding: 10px 0;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li > a > span {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown .dropdown-toggle span {
+  width: 100%;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown .dropdown-toggle span i {
+  border-left: none;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown.open {
+  background: linear-gradient(to bottom, #ffffff 0%, #e2e2e2 100%);
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown.open > a > span,
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown.open .fa-chevron-down {
+  color: black;
+  border-left: none;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li .dropdown-menu {
+  top: 60px;
+  border-radius: 0px;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li .dropdown-menu > li:hover {
+  background-color: #dbad60;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li .dropdown-menu > li > a {
+  border: 0px;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li .dropdown-menu > li > a span {
+  color: #000000;
+  font-weight: 300;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.navigation-register {
+  padding-top: 25px;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 > a {
+  padding-top: 14px;
+  padding-left: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: navajowhite;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 i .fa-times {
+  padding-right: 10px;
+}
+body.node-type-traders-room .region-sidebar-first #block-block-92 .phone-version {
+  display: none;
+}
+.node-type-traders-room .my-account .btn {
+  background: #dcad54;
+}
+body.node-type-traders-room.page-node-633834 .header .header .header-content .navigation-area .navbar-nav > li > a {
+  /*width: 120%;*/
+  display: inline-block;
+}
+body.node-type-traders-room.page-node-633834 .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li > a {
+  display: inline-block;
+  /*width: 120%;*/
+}
+@media only screen and (max-width: 900px) {
+  body.node-type-traders-room > .full {
+    padding-top: 0;
+  }
+  body.node-type-traders-room .region-sidebar-first #block-block-92 {
+    margin-top: 15px;
+    padding: 5px;
+  }
+  body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area {
+    top: 40px;
+  }
+  body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown.open {
+    height: 50px;
+    display: inline-table;
+  }
+  body.node-type-traders-room .region-sidebar-first #block-block-92 .navigation-area .navbar-nav > li.dropdown.open .dropdown-menu {
+    top: 0;
+  }
+  body.node-type-traders-room .region-sidebar-first #block-block-92 .phone-version {
+    display: inline-block;
+  }
+}

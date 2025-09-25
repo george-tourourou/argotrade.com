@@ -1,0 +1,260 @@
+@import "Variables";
+h1{
+  color: @TEXT_GENERAL_COLOR;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1;
+  &.white{
+    color: #fff;
+  }
+  &.light,.light {
+    font-weight: 400;
+  }
+}
+
+h2{
+  font-size: 38px;
+  color: @TEXT_GENERAL_COLOR;
+  font-weight: 600;
+  line-height: 1.2;
+  span.bold{
+    font-weight: 700;
+  }
+  span.blue{
+    color: @TEXT_GENERAL_COLOR;
+  }
+  span.blue-light {
+    color: @TEXT_GENERAL_LIGHT_COLOR;
+    font-weight: 800;
+  }
+  span.orange{
+    color: @ORANGE_COLOR;
+  }
+  &.white{
+    color: white;
+  }
+}
+h4 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: @TEXT_GENERAL_COLOR;
+
+  span.blue-light {
+    color: @TEXT_GENERAL_LIGHT_COLOR;
+    //font-weight: 600;
+  }
+  .orange {
+    color: @ORANGE_COLOR;
+  }
+  b{font-weight: 700}
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.61;
+  color: @TEXT_GENERAL_COLOR;
+  &.white{
+    color: white;
+  }
+  b{font-weight: 700}
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.44;
+  color: @TEXT_GENERAL_COLOR;
+
+  &.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &.regular {}
+  &.white{
+    color: white;
+  }
+  &.semibold{
+    font-weight: 500;
+  }
+  span.blue-light {
+    color: @TEXT_GENERAL_LIGHT_COLOR;
+  }
+}
+
+ul,ol {
+  li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: @TEXT_GENERAL_COLOR;
+  }
+  &.ticks {
+    list-style-image: url('/sites/all/themes/argo/Content/Images/Common/icons/2021/check-ul-li.png');
+    padding: 10px 22px 0;
+    li {
+      padding: 0 15px 8px;
+    }
+  }
+}
+table {
+  td {
+    font-size: 16px;
+    color: @TEXT_GENERAL_COLOR;
+  }
+  th {
+    font-size: 16px;
+    font-weight: 700;
+    color: @TEXT_GENERAL_COLOR;
+  }
+}
+
+.not-front {
+  h2{
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN_HR) {
+  h1{
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h4{
+    font-size: 32px;
+    line-height: 1.39;
+  }
+  h5 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .not-front {
+    h2{
+      font-size: 32px;
+    }
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN_MD) {
+  h1{
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h4{
+    font-size: 30px;
+    line-height: 1.39;
+  }
+  p {
+    font-size: 14px;
+  }
+  .not-front {
+    h2{
+      font-size: 30px;
+    }
+  }
+}
+@media only screen and (max-width: @LAPTOP_SCREEN) {
+  h1{
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1.33;
+  }
+  h4{
+    font-size: 28px;
+    line-height: 1.39;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  p {
+    //font-size: 16px;
+    //line-height: 1.53;
+  }
+  .not-front {
+    h2{
+      font-size: 28px;
+    }
+  }
+}
+
+@media only screen and (max-width: @TABLET_SCREEN) {
+  h1{
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1.33;
+  }
+  h4{
+    font-size: 24px;
+    line-height: 1.39;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  ul,ol {
+    li {
+      font-size: 14px;
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.53;
+    &.subtitle {
+      font-size: 16px;
+    }
+  }
+  ul li,table td,table th {
+    font-size: 14px;
+  }
+  .not-front {
+    h2{
+      font-size: 28px;
+    }
+  }
+}
+
+@media only screen and (max-width: @PHONE_SCREEN) {
+  h1{
+    line-height: 1.2;
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  h4{
+    font-size: 24px;
+    line-height: 1.53;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  ul,ol {
+    li {
+      font-size: 13px;
+    }
+  }
+  p {
+    line-height: 1.54;
+    font-size: 13px;
+    &.subtitle {
+      font-size: 15px;
+    }
+  }
+  table td,table th {
+    font-size: 13px;
+  }
+  .not-front {
+    h2{
+      font-size: 24px;
+    }
+  }
+}

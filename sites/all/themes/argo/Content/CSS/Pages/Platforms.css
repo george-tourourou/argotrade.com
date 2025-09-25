@@ -1,0 +1,142 @@
+.platforms .default-banner-promo {
+  background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/webtrader/assets-banner-mt4-web.jpg") no-repeat scroll top center / cover;
+}
+.platforms .default-banner-promo .title {
+  font-size: 50px;
+}
+.platforms .banner-1 {
+  padding-top: 164px;
+  padding-bottom: 45px;
+}
+.platforms .banner-1 .img-area {
+  padding-left: 109px;
+}
+.platforms .banner-1 .webtrader-pc-phone {
+  width: 88%;
+  margin-top: -21px;
+}
+.platforms .banner-1 .btn-area .link-area {
+  text-align: center;
+  padding-right: 60px;
+}
+.platforms .banner-1 .btn-area .link-area a.trading-conditions {
+  display: inline-block;
+  padding-top: 10px;
+}
+.platforms .banner-1 .btn-area .link-area a.trading-conditions:hover {
+  text-decoration: underline;
+}
+.platforms .banner-2 {
+  padding-top: 95px;
+  padding-bottom: 185px;
+}
+.platforms .banner-2 .img-area .webtrader-two-phone {
+  margin-top: -50px;
+}
+.platforms .title {
+  font-size: 36px;
+  padding-bottom: 25px;
+}
+.platforms .paragraph {
+  line-height: 1.74;
+  padding-bottom: 30px;
+}
+html:lang(ar) .platforms .banner-1 .img-area {
+  padding-left: 0;
+  padding-right: 109px;
+}
+body.i18n-es .platforms .banner-1 .text-area,
+body.i18n-es .platforms .banner-1 .img-area {
+  width: 50%;
+}
+body.i18n-es .platforms .banner-1 .btn-blue {
+  padding: 16px;
+}
+@media only screen and (max-width: 1024px) {
+  .platforms .title {
+    font-size: 30px;
+  }
+  .platforms .banner-1 {
+    padding-top: 104px;
+    padding-bottom: 45px;
+  }
+  .platforms .banner-1 .img-area {
+    padding-top: 60px;
+  }
+  .platforms .banner-1 .btn-area {
+    padding-top: 15px;
+  }
+  .platforms .banner-1 .btn-area .btn {
+    margin-bottom: 5px;
+  }
+  .platforms .banner-1 .btn-area .link-area {
+    padding: 0;
+    text-align: left;
+  }
+  .platforms .banner-2 {
+    padding-top: 65px;
+    padding-bottom: 85px;
+  }
+  .platforms .banner-2 .img-area .webtrader-two-phone {
+    margin-top: 40px;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .platforms .title {
+    font-size: 28px;
+  }
+  .platforms .banner-1 .text-area,
+  .platforms .banner-2 .text-area {
+    text-align: center;
+  }
+  .platforms .banner-1 .theme-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .platforms .banner-1 .text-area {
+    order: 2;
+  }
+  .platforms .banner-1 .btn-area .link-area {
+    text-align: center;
+  }
+  .platforms .banner-1 .img-area {
+    order: 1;
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  .platforms .banner-1 .img-area .webtrader-pc-phone.tablet-version.phone-device {
+    margin-top: 0;
+    display: inline-block;
+  }
+  .platforms .banner-1 .btn.phone-device {
+    display: inline-block;
+  }
+  .platforms .banner-2 .img-area {
+    text-align: center;
+  }
+  .platforms .banner-2 .img-area .webtrader-two-phone {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  html:lang(ar) .platforms .banner-1 .img-area {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  html:lang(es) .platforms .banner-1 .text-area,
+  html:lang(es) .platforms .banner-1 .img-area {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .platforms .default-banner-promo {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/webtrader/assets-banner-mob-mt4-web.jpg") no-repeat scroll top center / cover;
+  }
+  .platforms .title {
+    font-size: 24px;
+  }
+  body.i18n-es .platforms .banner-1 .btn-blue {
+    max-width: 250px;
+  }
+}
+/*# sourceMappingURL=Platforms.css.map */

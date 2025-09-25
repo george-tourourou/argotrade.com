@@ -1,0 +1,489 @@
+.plain-box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.micro-color-txt {
+  color: #075b69;
+}
+.micro-gradient-background {
+  background: #f1eeee;
+}
+.gray-gradient-background {
+  background: #b7b7b7;
+  background: -moz-linear-gradient(top, #d2d2d2 0%, #909090 100%);
+  background: -webkit-linear-gradient(top, #d2d2d2 0%, #909090 100%);
+  background: linear-gradient(to bottom, #d2d2d2 0%, #909090 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2d2d2', endColorstr='#9c9c9c', GradientType=0);
+}
+.gray-background-light {
+  background: #f1f1f1;
+}
+.gray-color-txt {
+  color: #65716d;
+}
+.gray-gradient-btn {
+  background: #b7b7b7;
+  /* Old browsers */
+}
+.gray-gradient-btn:hover {
+  background: #939393;
+}
+.gold-gradient-background {
+  background: #bd9b4f;
+  background: -moz-linear-gradient(top, #d1ba6b 0%, #987130 100%);
+  background: -webkit-linear-gradient(top, #d1ba6b 0%, #987130 100%);
+  background: linear-gradient(to bottom, #d1ba6b 0%, #987130 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1ba6b', endColorstr='#a77b30', GradientType=0);
+}
+.gold-color-txt {
+  color: #785923;
+}
+.gold-background-light {
+  background: #ebe1ca;
+}
+.gold-gradient-btn {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0b869+0,b0883e+100 */
+  background: #b69146;
+}
+.gold-gradient-btn:hover {
+  background: #bd9b4f;
+}
+.blue-gradient-background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b9ab0+0,50b8c8+100 */
+  background: #238ec9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #20d9ef 0%, #25569f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #20d9ef 0%, #25569f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #20d9ef 0%, #25569f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b9ab0', endColorstr='#50b8c8', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.blue-background-light {
+  background: #bcf3fa;
+}
+.blue-color-txt {
+  color: #123d71;
+}
+.blue-gradient-btn {
+  background: #2567b5;
+}
+.blue-gradient-btn:hover {
+  background: #238ec9;
+}
+.green-gradient-background {
+  background: #34de7c;
+  background: -moz-linear-gradient(top, #34de7c 0%, #25b080 100%);
+  background: -webkit-linear-gradient(top, #34de7c 0%, #25b080 100%);
+  background: linear-gradient(to bottom, #34de7c 0%, #25b080 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34de7c', endColorstr='#25b080', GradientType=0);
+}
+.green-background-light {
+  background: #bfecd8;
+}
+.green-gradient-btn {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#34de7c+0,14a373+100 */
+  background: #34de7c;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #34de7c 0%, #14a373 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #34de7c 0%, #14a373 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #34de7c 0%, #14a373 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34de7c', endColorstr='#14a373', GradientType=1);
+  /* IE6-9 */
+}
+.green-gradient-btn:hover {
+  background: #14a373;
+}
+.purple-gradient-btn {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9a9a9+0,939393+100 */
+  background: #84088a;
+  /* Old browsers */
+}
+.purple-gradient-btn:hover {
+  background: #6d0a7b;
+}
+.purple-background-light {
+  background: #e4b4e2;
+}
+.purple-color-txt {
+  color: #bd90d7;
+}
+.purple-gradient-background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9a9a9+0,939393+100 */
+  background: #84088a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a805a2 0%, #381052 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a805a2 0%, #381052 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a805a2 0%, #381052 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9a9a9', endColorstr='#939393', GradientType=1);
+  /* IE6-9 */
+}
+.trading-account-types {
+  padding: 0 0 100px;
+  background: #f0f0f0;
+}
+.trading-account-types > .theme-content {
+  width: 1320px;
+}
+.trading-account-types h1 {
+  color: #020202;
+  padding: 85px 0 45px;
+  font-weight: 500;
+}
+.trading-account-types .category .cell,
+.trading-account-types .category .cell-btn {
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  min-height: 85px;
+  border-bottom: 1px #dadada solid;
+  text-align: center;
+}
+.trading-account-types .category .cell-btn {
+  padding: 20px 10px;
+  text-align: center;
+  background: #fff;
+}
+.trading-account-types .category .cell-btn .btn {
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+  box-shadow: 0px 4px 8px 0px rgba(34, 33, 34, 0.27);
+  transition: none;
+  padding: 19px 10px 20px;
+}
+.trading-account-types .category .cell {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.trading-account-types .category .cell.gray {
+  background: #f1efef;
+}
+.trading-account-types .category .cell.category-amount .hide {
+  width: 100%;
+}
+.trading-account-types .category .cell.show-details,
+.trading-account-types .category .cell.close-details {
+  display: none;
+}
+.trading-account-types .category .cell .cell-content {
+  margin: 0 0 0 38%;
+  float: left;
+}
+.trading-account-types .category .cell img {
+  float: left;
+}
+.trading-account-types .category .cell .hide {
+  width: 70%;
+  text-align: left;
+}
+.trading-account-types .category .cell .hide span {
+  line-height: 1.5;
+}
+.trading-account-types .category .cell span {
+  line-height: 1;
+  float: left;
+  margin: 4px 0 0 10px;
+}
+.trading-account-types .category .category-name {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 25px 20px;
+  text-transform: uppercase;
+}
+.trading-account-types .category .category-amount {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: lowercase;
+}
+.trading-account-types .category .box-shadow {
+  box-shadow: 0 0 21px 0 rgba(34, 33, 34, 0.25);
+}
+.trading-account-types .category .border-left {
+  border-left: 1px solid #bcbcbd;
+}
+.trading-account-types .category.category-micro .category-name {
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.trading-account-types .category.category-micro .category-amount {
+  background-color: #c0dfe1;
+}
+.trading-account-types .category.category-basic .category-amount {
+  background-color: #caeaed;
+}
+.trading-account-types .category.category-classic .category-amount {
+  background-color: #bfecd8;
+}
+.trading-account-types .category.category-silver .category-name {
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.trading-account-types .category.category-silver .category-amount {
+  background-color: #dedddd;
+}
+.trading-account-types .category.category-gold .category-amount {
+  background-color: #dccba2;
+}
+.trading-account-types .category.category-platinum .category-amount {
+  background-color: #389af5;
+}
+.trading-account-types .category.category-exclusive .category-amount {
+  background-color: #e4b4e2;
+}
+.trading-account-types table td {
+  box-shadow: 0px 0px 21px 0px rgba(34, 33, 34, 0.25);
+  background-color: #fff;
+}
+.trading-account-types .open-account {
+  text-align: center;
+  padding-top: 32px;
+}
+.trading-account-types .open-account .btn.btn-gold {
+  font-weight: 500;
+  font-size: 35px;
+  padding: 20px 60px;
+}
+.trading-account-types .phone-version {
+  display: none;
+}
+.trading-account-types .account-spreads h1 {
+  padding: 165px 0 35px;
+}
+.trading-account-types .account-spreads .cell span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4a4949;
+  text-align: center;
+  float: none;
+  margin: 4px 0 0 0;
+}
+.trading-account-types .account-spreads .category .cell .cell-content {
+  margin: 0;
+  float: left;
+}
+.trading-account-types .account-spreads .category.category-silver .category-name,
+.trading-account-types .account-spreads .category.category-micro .category-name {
+  padding: 25px 20px;
+  margin-top: 0;
+}
+.trading-account-types .account-spreads .risk-warning {
+  padding-top: 20px;
+}
+.trading-account-types .account-spreads .risk-warning .col-2_12 {
+  padding: 1px;
+}
+.trading-account-types .account-spreads .risk-warning .notes {
+  font-size: 15px;
+  color: #000;
+}
+@media only screen and (max-width: 1320px) {
+  .trading-account-types > .theme-content {
+    width: 100%;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+  }
+}
+@media all and (max-width: 1000px) {
+  .trading-account-types h1 {
+    font-size: 35px;
+  }
+  .trading-account-types .category.category-description .cell {
+    font-size: 14px;
+  }
+  .trading-account-types .category .category-name {
+    font-size: 20px;
+  }
+  .trading-account-types .category .category-amount {
+    font-size: 18px;
+  }
+  .trading-account-types .category .cell {
+    padding: 10px;
+  }
+  .trading-account-types .category .cell-btn .btn {
+    border-radius: 10px;
+  }
+}
+@media all and (max-width: 650px) {
+  .trading-account-types {
+    background-color: #EFEFEF;
+  }
+  .trading-account-types h1 {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 34px;
+    padding-bottom: 25px;
+  }
+  .trading-account-types .theme-content {
+    padding: 0 45px;
+  }
+  .trading-account-types #trading-account-types-phone-version.theme-content {
+    padding: 0;
+  }
+  .trading-account-types .pc-version {
+    display: none;
+  }
+  .trading-account-types .phone-version {
+    display: block;
+  }
+  .trading-account-types .category-description {
+    display: none;
+  }
+  .trading-account-types .category .border-left {
+    border: none;
+  }
+  .trading-account-types .slick-slider .slick-arrow {
+    display: none!important;
+  }
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide {
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide.account-type .category-with-spreads .cell-left,
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide.account-type .category-with-spreads .cell-right {
+    min-height: 30px;
+  }
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide.slick-center {
+    opacity: 1;
+    margin-top: 10px;
+  }
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide.slick-center.account-type .category-with-spreads .cell-left,
+  .trading-account-types .slick-slider .slick-list .slick-track .slick-slide.slick-center.account-type .category-with-spreads .cell-right {
+    min-height: 35px;
+  }
+  .trading-account-types .account-type {
+    margin: 0 10px;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .trading-account-types .account-type .category-with-spreads {
+    font-size: 10px;
+    font-weight: 500;
+    border-bottom: solid 1px #B2B2B2;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-left,
+  .trading-account-types .account-type .category-with-spreads .cell-right {
+    padding: 10px 6px 7px 10px;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-left {
+    border-right: solid 2px #B2B2B2;
+    position: relative;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-left img {
+    float: right;
+    position: absolute;
+    right: 5px;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-left .txt {
+    display: block;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 30%;
+  }
+  .trading-account-types .account-type .category-with-spreads.express-withdrawal .cell-left .txt {
+    padding-right: 15%;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-right span.instrument-name {
+    color: #575756;
+  }
+  .trading-account-types .account-type .category-with-spreads .cell-right span.instrument-spreads {
+    float: right;
+    font-weight: 600;
+  }
+  .trading-account-types .account-type .category-with-spreads.category {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    margin-top: -2.5%;
+    margin-bottom: -15px;
+    border-bottom: none;
+    height: 70PX;
+    box-shadow: 0px -1px 1px 0px rgba(34, 33, 34, 0.27);
+  }
+  .trading-account-types .account-type .category-with-spreads.category-micro {
+    background: linear-gradient(178deg, #EFEDEC 70%, rgba(95, 95, 95, 0.27) 72%, #fff 78%);
+    color: #9d9c9c;
+  }
+  .trading-account-types .account-type .category-with-spreads.category-silver {
+    background: linear-gradient(178deg, #9d9c9c 70%, rgba(34, 33, 34, 0.27) 72%, #fff 78%);
+  }
+  .trading-account-types .account-type .category-with-spreads.category-gold {
+    background: linear-gradient(178deg, #C4A46C 70%, rgba(34, 33, 34, 0.27) 72%, #fff 75%);
+  }
+  .trading-account-types .account-type .category-with-spreads.category-platinum {
+    background: linear-gradient(178deg, #33638E 70%, rgba(34, 33, 34, 0.27) 72%, #fff 78%);
+  }
+  .trading-account-types .account-type .category-with-spreads.category-exclusive {
+    background: linear-gradient(178deg, #7a6687 70%, rgba(34, 33, 34, 0.27) 72%, #fff 78%);
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category {
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category .txt {
+    padding-bottom: 8px;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category .account-size {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 4px 7px 3px;
+    border-radius: 10px;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category.sub-category-micro .account-size {
+    background: #EFEDEC;
+    color: #9d9c9c;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category.sub-category-silver .account-size {
+    background: #9d9c9c;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category.sub-category-gold .account-size {
+    background: #C4A46C;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category.sub-category-platinum .account-size {
+    background: #33638E;
+  }
+  .trading-account-types .account-type .category-with-spreads.sub-category.sub-category-exclusive .account-size {
+    background: #7a6687;
+  }
+  .trading-account-types .account-type .category-with-spreads.empty,
+  .trading-account-types .account-type .category-with-spreads.cell {
+    height: 15px;
+    border-bottom: none;
+  }
+  .trading-account-types .open-account .btn.btn-gold {
+    font-size: 18px;
+  }
+  .trading-account-types p.notes {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+}
+/*# sourceMappingURL=Trading-Account-Types.css.map */

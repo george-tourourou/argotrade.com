@@ -1,0 +1,326 @@
+.assets-markets .search-area .form-item {
+  float: none;
+}
+.assets-markets p.forexfeed-msg {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.assets-markets .trade-assets-block {
+  padding-top: 208px;
+  padding-bottom: 150px;
+  background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-markets.jpg") no-repeat scroll top center / cover;
+  min-height: 593px;
+}
+.assets-markets .trade-assets-block .text-area .title,
+.assets-markets .trade-assets-block .text-area .paragraph {
+  text-align: center;
+  padding: 0 22%;
+}
+.assets-markets .trade-assets-block .text-area .title {
+  color: #FFF;
+  padding-bottom: 15px;
+}
+.assets-markets .trade-assets-block .text-area .paragraph {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.assets-markets .exclusive-trading-accounts {
+  background: #f6f6f6;
+  padding: 128px 0 180px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-header .title {
+  font-size: 40px;
+  line-height: 1.35;
+  padding-bottom: 58px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-header .title span {
+  font-weight: 700;
+  color: #1b419e;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets {
+  padding-bottom: 64px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets .row {
+  display: flex;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.03);
+  background: #fff;
+  width: 24%;
+  margin-right: 1.2%;
+  margin-bottom: 30px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  min-height: 350px;
+  position: relative;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:nth-child(4n+4) {
+  margin-right: 0;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  line-height: 2.32;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title a,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title p {
+  text-decoration: none;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title i {
+  color: #8b8481;
+  font-size: 16px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .pip {
+  font-weight: 300;
+  line-height: 2.17;
+  color: #1a1a1a;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low {
+  line-height: 1.1 !important;
+  padding-bottom: 19px;
+  position: absolute;
+  bottom: 8px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt {
+  min-height: 96px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 1.25;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .pip {
+  font-size: 16px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+  color: #1b419e;
+  padding-bottom: 45px;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover {
+  background: #1b419e;
+}
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover .asset-title,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover .spreads-as-low,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover .same-txt,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover .pip,
+.assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:hover .spreads-num {
+  color: #FFF;
+}
+.assets-markets .exclusive-trading-accounts .link-plain-row {
+  text-align: center;
+}
+.assets-markets .exclusive-trading-accounts .link-plain-row .btn {
+  min-width: 235px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+html:lang(ar) .trade-assets-block .text-area form.instruments-search-form #edit-instrument {
+  background: #FFFFFF url(../../../Content/Images/Common/search-icon.svg) no-repeat 3%;
+}
+html:lang(ar) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+  margin-right: 0;
+  margin-left: 1.2%;
+}
+html:lang(es) .assets-markets .trade-assets-block .text-area .title,
+html:lang(es) .assets-markets .trade-assets-block .text-area .paragraph {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+html:lang(es) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+  min-height: 300px;
+}
+@media (max-width: 1200px) {
+  .trade-assets-block .text-area form.instruments-search-form #edit-instrument {
+    width: 347.9px;
+  }
+  .trade-assets-block .assets-area {
+    max-width: 470px;
+    margin: auto;
+  }
+  .trade-assets-block .assets-area .asset {
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 320px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+    font-size: 54px;
+    padding-bottom: 20px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+  .assets-markets .trade-assets-block {
+    padding-top: 178px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .assets-markets .trade-assets-block {
+    min-height: 543px;
+    padding-top: 188px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .assets-markets .trade-assets-block {
+    padding-top: 100px;
+    min-height: 463px;
+    padding-bottom: 0;
+  }
+  .assets-markets .trade-assets-block .text-area .paragraph {
+    font-size: 16px;
+  }
+  .assets-markets .exclusive-trading-accounts {
+    padding: 78px 0 110px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 290px;
+    padding: 20px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+    font-size: 18px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low {
+    bottom: 4px;
+  }
+  html:lang(es) .assets-markets .trade-assets-block .text-area .title,
+  html:lang(es) .assets-markets .trade-assets-block .text-area .paragraph {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .assets-markets .exclusive-trading-accounts {
+    padding: 78px 0 110px;
+  }
+  .assets-markets .exclusive-trading-accounts .theme-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 260px;
+    padding: 20px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+    font-size: 40px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+    font-size: 16px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-header .title {
+    font-size: 28px;
+  }
+  html:lang(ar) .assets-markets .trade-assets-block .text-area .paragraph {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  html:lang(es) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 300px;
+  }
+  html:lang(es) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt {
+    min-height: 120px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .assets-markets p.forexfeed-msg {
+    padding: 0 20px;
+  }
+  .assets-markets .trade-assets-block {
+    background: #394458 url("/sites/all/themes/argo/Content/Images/Pages/assets/2021/pages/markets-pages/banners/assets-banner-mob-markets.png") no-repeat scroll top center / cover;
+    min-height: 358px;
+    padding-top: 111px;
+  }
+  .assets-markets .trade-assets-block .text-area .title {
+    padding: 0 5% 5px;
+  }
+  .assets-markets .trade-assets-block .text-area .paragraph {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 5% 0;
+  }
+  .assets-markets .exclusive-trading-accounts {
+    padding: 58px 0 60px;
+  }
+  .assets-markets .exclusive-trading-accounts .theme-content {
+    padding: 0;
+    max-width: 330px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-header .title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 210px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+    font-size: 36px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+    font-size: 14px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt {
+    font-size: 11px;
+    min-height: 70px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .pip {
+    font-size: 12px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low {
+    font-size: 11px;
+    padding-bottom: 9px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets {
+    padding-bottom: 18px;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets .row {
+    display: block;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    width: 48%;
+    margin-right: 3%;
+  }
+  .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  html:lang(ar) #market-stats .forexfeed-msg {
+    text-align: right;
+  }
+  html:lang(ar) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:nth-child(2n+2) {
+    margin-left: 0;
+  }
+  html:lang(ar) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    margin-left: 3%;
+  }
+  html:lang(es) .assets-markets .trade-assets-block .text-area .title,
+  html:lang(es) .assets-markets .trade-assets-block .text-area .paragraph {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  html:lang(es) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    min-height: 220px;
+  }
+  html:lang(es) .assets-markets .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt {
+    min-height: 80px;
+  }
+}
+/*# sourceMappingURL=assets-markets.css.map */

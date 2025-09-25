@@ -1,0 +1,42 @@
+@import "../Common/Variables";
+#risk-warning{
+  background-color: #0d1216;
+  padding: 14px 20px;
+  .container{
+    width: @CONTENT_EXTRA_LARGE_WIDTH;
+  }
+  p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #a5a7a9;
+    line-height: 1.23;
+    b{
+      font-weight: 600;
+    }
+  }
+}
+
+@media all and (max-width: @GRID_MEDIUM) {
+  #risk-warning{
+    .container{
+      width: initial;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  #risk-warning{
+
+    p{
+      font-size: 11px;
+    }
+    a{
+      color: #2687be;
+      display: inline !important;
+    }
+    #more-text{
+      display: none;
+    }
+  }
+}
+
